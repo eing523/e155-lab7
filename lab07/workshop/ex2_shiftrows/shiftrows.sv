@@ -27,5 +27,9 @@ module shiftrows(input  logic [127:0] a,
                  output logic [127:0] y);
 
     // TODO: Your code goes here
+	
+	input_to_state_inst input_to_state(a, y);
+	
+	
 
 endmodule
