@@ -23,12 +23,38 @@
 //   The testbench only sees the 128-bit ports, so it checks both the same way.
 /////////////////////////////////////////////
 
-module shiftrows(input  logic [127:0] a,
-                 output logic [127:0] y);
-
-    // TODO: Your code goes here
+module shiftrows #(parameter COL=4)(input  logic [(COL*32)-1:0] a,
+                 output logic [(COL*32)-1:0] y);
 	
-	input_to_state_inst input_to_state(a, y);
+	logic [0:3][0:COL-1][7:0] yArr, aArr;	
+	
+	input_to_state #(COL) input_to_state_inst (.a(a), .y(aArr));
+	
+	// row 0
+	assign yArr[0][0][7:0] = aArr[0][0][7:0];
+	assign yArr[0][1][7:0] = aArr[0][1][7:0];
+	assign yArr[0][2][7:0] = aArr[0][2][7:0];
+	assign yArr[0][3][7:0] = aArr[0][3][7:0];
+	
+	// row 1
+	assign yArr[1][0][7:0] = aArr[1][1][7:0];
+	assign yArr[1][1][7:0] = aArr[1][2][7:0];
+	assign yArr[1][2][7:0] = aArr[1][3][7:0];
+	assign yArr[1][3][7:0] = aArr[1][0][7:0];
+	
+	// row 2
+	assign yArr[2][0][7:0] = aArr[2][2][7:0];
+	assign yArr[2][1][7:0] = aArr[2][3][7:0];
+	assign yArr[2][2][7:0] = aArr[2][0][7:0];
+	assign yArr[2][3][7:0] = aArr[2][1][7:0];
+	
+	// row 3
+	assign yArr[3][0][7:0] = aArr[3][3][7:0];
+	assign yArr[3][1][7:0] = aArr[3][0][7:0];
+	assign yArr[3][2][7:0] = aArr[3][1][7:0];
+	assign yArr[3][3][7:0] = aArr[3][2][7:0];
+	
+	state_to_output #(COL) state_to_output_inst(.a(yArr), .y(y));
 	
 	
 
