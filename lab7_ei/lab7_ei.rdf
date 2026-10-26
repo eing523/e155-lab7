@@ -49,7 +49,7 @@
             <Options VerilogStandard="System Verilog" top_module="mixcolumns"/>
         </Source>
         <Source name="source/impl_1/keyexpansion.sv" type="Verilog" type_short="Verilog">
-            <Options VerilogStandard="System Verilog"/>
+            <Options VerilogStandard="System Verilog" top_module="keyexpansion"/>
         </Source>
         <Source name="source/impl_1/sbox_sync.sv" type="Verilog" type_short="Verilog">
             <Options VerilogStandard="System Verilog"/>

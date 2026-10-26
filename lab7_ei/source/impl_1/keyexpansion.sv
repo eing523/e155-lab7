@@ -32,20 +32,20 @@ module keyexpansion(input  logic clk,
 		endcase
 	end
 	
-	// each word (which is selected by key) is one column from the state
-	assign col0 = key[127:96];
+	// each word (which is selected by key) is one column from the state and this is also rotword()
 	assign col1 = key[95:64];
 	assign col2 = key[63:32];
 	assign col3 = key[31:0];
+	assign col0 = key[127:96];
 	
-	// rotword() and subword() from sbox_sync for word (which is 32 bits total aka 4 bytes)
-	sbox_sync sbox_sync_inst0 (.a(key[31:24]), .clk(clk), .y(output0));
+	// subword() from sbox_sync for word (which is 32 bits total aka 4 bytes)
 	sbox_sync sbox_sync_inst1 (.a(key[23:16]), .clk(clk), .y(output1));
 	sbox_sync sbox_sync_inst2 (.a(key[15:8]), .clk(clk), .y(output2));
 	sbox_sync sbox_sync_inst3 (.a(key[7:0]), .clk(clk), .y(output3));
+	sbox_sync sbox_sync_inst0 (.a(key[31:24]), .clk(clk), .y(output0));
 	
 	// bringing each byte together into 1 word
-	assign output_total = {output0, output1, output2, output3};
+	assign output_total = {output1, output2, output3, output0};
 	
 	// logic for key expansion
 	assign array0 = col0 ^ output_total ^ round_const;
