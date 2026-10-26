@@ -4,20 +4,20 @@
 //   Section 5.2
 //   Routine applied to the key to generate 4 * (Nr+1) words
 /////////////////////////////////////////////
-// TODOOOOOOOOO
-module keyexpansion#(parameter Nr = 10)
-				(input  logic clk,
-					input logic [127:0] key, // array of Nk words that comprise the key
-                  output logic [4*(Nr+1):0] w);
 
-	genvar i;
-	//roundkey needed?
-	localparam Nk = 4 // number of 32-bit words comprising the key
+module keyexpansion(input  logic clk,
+					input logic [3:0] round,
+					input logic [127:0] key, // array of Nk words that comprise the key
+                    output logic [127:0] key_new);
+
+	// note to self: Nk = 4
 	
 	logic [31:0] round_const;
+	logic [7:0] output0, output1, output2, output3; // words
+	logic [31:0] output_total, array0, array1, array2, array3, col0, col1, col2, col3;
 	
 	always_comb begin
-		case(round_num)
+		case(round)
 			4'd0: round_const = 8'h01000000;
 			4'd1: round_const = 8'h02000000;
 			4'd2: round_const = 8'h04000000;
@@ -32,36 +32,28 @@ module keyexpansion#(parameter Nr = 10)
 		endcase
 	end
 	
-	// rotword() and subword() from sbox_sync
-	sbox_sync sbox_sync_inst0 (.a(key[127:96], .clk(clk), .y(output0));
-	sbox_sync sbox_sync_inst1 (.a(key[95:64], .clk(clk), .y(output1));
-	sbox_sync sbox_sync_inst2 (.a(key[63:32], .clk(clk), .y(output2));
-	sbox_sync sbox_sync_inst3 (.a(key[31:0], .clk(clk), .y(output3));
+	// each word (which is selected by key) is one column from the state
+	assign col0 = key[127:96];
+	assign col1 = key[95:64];
+	assign col2 = key[63:32];
+	assign col3 = key[31:0];
 	
+	// rotword() and subword() from sbox_sync for word (which is 32 bits total aka 4 bytes)
+	sbox_sync sbox_sync_inst0 (.a(key[31:24], .clk(clk), .y(output0));
+	sbox_sync sbox_sync_inst1 (.a(key[23:16], .clk(clk), .y(output1));
+	sbox_sync sbox_sync_inst2 (.a(key[15:8], .clk(clk), .y(output2));
+	sbox_sync sbox_sync_inst3 (.a(key[7:0], .clk(clk), .y(output3));
 	
-	for (i=0; i<Nk-1; i++) begin
-				assign w[i] = key[4*i];
-		assign w[i] += key[4*i+1];
-		assign w[i] += key[4*i+2];
-		assign w[i] += key[4*i+3];
-
-	end
+	// bringing each byte together into 1 word
+	assign output_total = {output0, output1, output2, output3};
 	
-	genvar j;
+	// logic for key expansion
+	assign array0 = col0 ^ output_total ^ round_const;
+	assign array1 = col1 ^ word0;
+	assign array2 = col2 ^ word1;
+	assign array3 = col3 ^ word2;
 	
-	for (j=0; j=<4*Nr+3; j++) begin
-		temp = w[i-1];
-		if (j % Nk == 0) begin // rotate word stuff
-			temp = sbox(RotWord(temp)) ^ Rcon(i / Nk); // Line 10 ugh idk
-		end
-		else if ((Nk > 6) && (i % Nk == 4)) begin
-			temp = Sbox_sync againnn // TODO
-		end
-		
-		w[i] = w[i-Nk] ^ temp;
-		
-	end
+	// putting the arrays together
+	assign key_new = {array0, array1, array2, array3};
 	
-	return w;
-  
 endmodule
