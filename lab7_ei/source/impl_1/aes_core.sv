@@ -23,7 +23,44 @@ module aes_core(input  logic         clk,
                 input  logic [127:0] plaintext, 
                 output logic         done, 
                 output logic [127:0] cyphertext);
+	
+	
+	// note to self: Nr = 10 
+	
+	typdef enum logic [3:0] {BEGIN, ROUND, END} statetype;
+	statetype state, nextstate;
+	
+	logic [3:0] round, 
+	logic keyexp_output1
+	
+	keyexpansion keyexpansion_inst1(.clk(clk), .round(round), .key(), .key_new());
 
-    // TODO: Your code goes here
+	
+	subbytes subbytes_inst(.a(), .clk(clk), .y());
+	shiftrows shiftrows_inst(.a(), .y());
+	mixcolumns mixcolumns_inst(.a(), .y());
+	addroundkey addroundkey_inst(.state(), .round_key(), .y_output());
+	keyexpansion keyexpansion_inst2(.clk(clk), .round(), .key(), .key_new());
+	
+	// state register
+	always_ff @(posedge clk) begin
+		if (reset) state <= BEGIN;
+		else state <= nextstate;
+	end
+	
+	// next state logic
+	always_comb begin
+		case(state)
+			S0: if (JSDFJAKLF) nextstate = S1;
+				else nextstate = BEGIN;
+			S1: if
+				else if
+					...
+					
+			S2
+			
+			S3
+			
+	
     
 endmodule

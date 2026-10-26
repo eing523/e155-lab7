@@ -55,7 +55,7 @@
             <Options VerilogStandard="System Verilog"/>
         </Source>
         <Source name="source/impl_1/addroundkey.sv" type="Verilog" type_short="Verilog">
-            <Options VerilogStandard="System Verilog"/>
+            <Options VerilogStandard="System Verilog" top_module="addroundkey"/>
         </Source>
         <Source name="source/impl_1/subbytes.sv" type="Verilog" type_short="Verilog">
             <Options VerilogStandard="System Verilog" top_module="subbytes"/>
