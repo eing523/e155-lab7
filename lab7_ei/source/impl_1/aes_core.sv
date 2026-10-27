@@ -27,39 +27,72 @@ module aes_core(input  logic         clk,
 	
 	// note to self: Nr = 10 
 	
-	typdef enum logic [3:0] {BEGIN, ROUND, END} statetype;
+	typdef enum logic [3:0] {IDLE, ROUNDS, END} statetype;
 	statetype state, nextstate;
 	
-	logic [3:0] round, 
-	logic keyexp_output1
+	logic [3:0] round, nload
+	logic [127:0] fsm_next_result, fsm_result, key_new // key_new is the round key
+	logic [127:0] prev_key,
+	logic [127:0] subbytes_out, shiftrows_out, mixcols_out, addrndkey_out, addrndkey_out_final, keyexpans_out
 	
-	keyexpansion keyexpansion_inst1(.clk(clk), .round(round), .key(), .key_new());
 
 	
-	subbytes subbytes_inst(.a(), .clk(clk), .y());
-	shiftrows shiftrows_inst(.a(), .y());
-	mixcolumns mixcolumns_inst(.a(), .y());
-	addroundkey addroundkey_inst(.state(), .round_key(), .y_output());
-	keyexpansion keyexpansion_inst2(.clk(clk), .round(), .key(), .key_new());
+	subbytes subbytes_inst(.a(fsm_result), .clk(clk), .y(subbytes_out));
+	shiftrows shiftrows_inst(.a(subbytes_out), .y(shiftrows_out));
+	mixcolumns mixcolumns_inst(.a(shiftrows_out), .y(mixcols_out));
+	addroundkey addroundkey_inst(.state(mixcols_out), .round_key(round_key), .y_output(addrndkey_out));
+	addroundkey addroundkey_inst_final(.state(shiftrows_out), .round_key(round_key), .y_output(addrndkey_out_final));
+
+	
+	keyexpansion keyexpansion_inst(.clk(clk), .round(round), .key(prev_key), .key_new(key_new));
+	
 	
 	// state register
 	always_ff @(posedge clk) begin
-		if (reset) state <= BEGIN;
-		else state <= nextstate;
+		if (load) begin
+			state <= IDLE;
+			round <= 0;
+			fsm_result <= plaintext;
+			prev_key <= key;
+		end
+		
+		else begin 
+			state <= nextstate;
+			fsm_result <= fsm_next_result;
+			key <= prev_key;
+			
+		end
 	end
 	
 	// next state logic
 	always_comb begin
 		case(state)
-			S0: if (JSDFJAKLF) nextstate = S1;
-				else nextstate = BEGIN;
-			S1: if
-				else if
-					...
-					
-			S2
+			IDLE: begin
+				if (MCU DONE SENDING  DATA)
 			
-			S3
+			
+			end
+			
+			ROUNDS: begin
+				if (round is 10) begin
+				
+					nextstate = END;
+				end else begin
+					doing the thingsssss
+				end
+			
+			end
+					
+			END: begin
+			
+			end
+			
+			default: next_state = IDLE;
+		
+		endcase
+	end
+	
+	assign cyphertext = fsm_result;
 			
 	
     
