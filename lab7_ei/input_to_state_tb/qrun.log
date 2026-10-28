@@ -1,0 +1,82 @@
+# *** Summary *********************************************
+#     qrun: Errors:   0, Warnings:   0
+#     vlog: Errors:   0, Warnings:   0
+#     vopt: Errors:   0, Warnings:   3
+#   Totals: Errors:   0, Warnings:   3
+# ** Note: (vsim-220) 'C:/lscc/radiant/2026.1/questasim/win64/../modelsim.ini' is used as the ini file.
+# vsim -L work -L pmi_work -L ovi_ice40up -lib qrun.out/work -wlf vsim.wlf -gui -do "view wave" -do "add wave /*" -do "run -all" -statslog qrun.out/stats_log qrun_opt -suppress vsim-7033,vsim-8630,3009,3389 -appendlog -l qrun.log 
+# Start time: 17:34:42 on Oct 27,2026
+# Loading sv_std.std
+# Loading work.input_to_state_tb(fast)
+# Loading work.input_to_state(fast)
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# add wave /*
+# run -all
+# PASS  Appendix B input
+# ** Error: numbered bytes: test vector still contains x. Fill in the TODO.
+#    Time: 10 ns  Scope: input_to_state_tb.check File: C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex1_state_array/input_to_state_tb.sv Line: 45
+# ** Error: Appendix B cipher key: test vector still contains x. Fill in the TODO.
+#    Time: 10 ns  Scope: input_to_state_tb.check File: C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex1_state_array/input_to_state_tb.sv Line: 45
+# FAILED: 2 of 3 tests
+# ** Note: $finish    : C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex1_state_array/input_to_state_tb.sv(81)
+#    Time: 10 ns  Iteration: 0  Instance: /input_to_state_tb
+# End time: 17:34:47 on Oct 27,2026, Elapsed time: 0:00:05
+# Errors: 2, Warnings: 0
+# *** Summary *********************************************
+#     qrun: Errors:   0, Warnings:   0
+#     vlog: Errors:   0, Warnings:   0
+#     vopt: Errors:   0, Warnings:   3
+#   Totals: Errors:   0, Warnings:   3
+# ** Note: (vsim-220) 'C:/lscc/radiant/2026.1/questasim/win64/../modelsim.ini' is used as the ini file.
+# vsim -L work -L pmi_work -L ovi_ice40up -lib qrun.out/work -wlf vsim.wlf -gui -do "view wave" -do "add wave /*" -do "run -all" -statslog qrun.out/stats_log qrun_opt -suppress vsim-7033,vsim-8630,3009,3389 -appendlog -l qrun.log 
+# Start time: 17:35:26 on Oct 27,2026
+# Loading sv_std.std
+# Loading work.input_to_state_tb(fast)
+# Loading work.input_to_state(fast)
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# add wave /*
+# run -all
+# PASS  Appendix B input
+# ** Error: numbered bytes: test vector still contains x. Fill in the TODO.
+#    Time: 10 ns  Scope: input_to_state_tb.check File: C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex1_state_array/input_to_state_tb.sv Line: 45
+# ** Error: Appendix B cipher key: test vector still contains x. Fill in the TODO.
+#    Time: 10 ns  Scope: input_to_state_tb.check File: C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex1_state_array/input_to_state_tb.sv Line: 45
+# FAILED: 2 of 3 tests
+# ** Note: $finish    : C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex1_state_array/input_to_state_tb.sv(81)
+#    Time: 10 ns  Iteration: 0  Instance: /input_to_state_tb
+# 1
+# Break in Module input_to_state_tb at C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex1_state_array/input_to_state_tb.sv line 81
+# End time: 17:44:19 on Oct 27,2026, Elapsed time: 0:08:53
+# Errors: 2, Warnings: 0
+# *** Summary *********************************************
+#     qrun: Errors:   0, Warnings:   0
+#     vsim: Errors:   2, Warnings:   0
+#     vlog: Errors:   0, Warnings:   0
+#     vopt: Errors:   0, Warnings:   3
+#   Totals: Errors:   2, Warnings:   3
+# Error 31: Unable to unlink file "qrun.out/work/qrun_opt/_lib.qdb".
+# Error 133: Unable to remove directory "qrun.out/work/qrun_opt".
+# Error 133: Unable to remove directory "qrun.out/work".
+# Error 133: Unable to remove directory "qrun.out".
+# ** Note: (vsim-220) 'C:/lscc/radiant/2026.1/questasim/win64/../modelsim.ini' is used as the ini file.
+# vsim -L work -L pmi_work -L ovi_ice40up -lib qrun.out/work -wlf vsim.wlf -gui -do "view wave" -do "add wave /*" -do "run -all" -statslog qrun.out/stats_log qrun_opt -suppress vsim-7033,vsim-8630,3009,3389 -appendlog -l qrun.log 
+# Start time: 17:44:20 on Oct 27,2026
+# Loading sv_std.std
+# Loading work.input_to_state_tb(fast)
+# Loading work.input_to_state(fast)
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# add wave /*
+# run -all
+# PASS  Appendix B input
+# PASS  numbered bytes
+# PASS  Appendix B cipher key
+# PASSED: all 3 tests
+# ** Note: $finish    : C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex1_state_array/input_to_state_tb.sv(89)
+#    Time: 30 ns  Iteration: 0  Instance: /input_to_state_tb
+# 1
+# Break in Module input_to_state_tb at C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex1_state_array/input_to_state_tb.sv line 89
+# End time: 17:44:57 on Oct 27,2026, Elapsed time: 0:00:37
+# Errors: 0, Warnings: 0

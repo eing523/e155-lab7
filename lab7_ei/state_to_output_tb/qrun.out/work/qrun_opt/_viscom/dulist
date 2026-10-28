@@ -1,0 +1,3 @@
+1 15 state_to_output 4 fast 81 C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/state_to_output_tb/qrun.out/work 0 0 0 0 331 0
+1 14 input_to_state 4 fast 81 C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/state_to_output_tb/qrun.out/work 0 0 0 0 331 0
+1 18 state_to_output_tb 4 fast 81 C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/state_to_output_tb/qrun.out/work 0 0 0 0 111 0

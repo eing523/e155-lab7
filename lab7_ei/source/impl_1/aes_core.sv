@@ -27,7 +27,7 @@ module aes_core(input  logic         clk,
 	
 	// note to self: Nr = 10 
 	
-	typedef enum logic [2:0] {IDLE, ROUNDS, END} statetype;
+	typedef enum logic [1:0] {IDLE, DELAY, ROUNDS, END} statetype;
 	statetype state, nextstate;
 	
 	logic [3:0] round, prev_round;
@@ -49,7 +49,7 @@ module aes_core(input  logic         clk,
 	
 	// state register
 	always_ff @(posedge clk) begin
-		if (load) begin // active low
+		if (load) begin
 			state <= IDLE;
 			round <= 4'd0;
 			fsm_result <= plaintext;
@@ -60,6 +60,7 @@ module aes_core(input  logic         clk,
 			state <= nextstate;
 			fsm_result <= fsm_next_result;
 			round <= prev_round;
+			if (state == ROUNDS) begin prev_key <= key_new; end
 			
 		end
 	end
@@ -75,21 +76,25 @@ module aes_core(input  logic         clk,
 			IDLE: begin
 				if (!load) begin
 					fsm_next_result = plaintext ^ key;
-					nextstate = ROUNDS;
+					prev_round = 4'd1;
+					nextstate = DELAY;
 				end
 				else begin
 					nextstate = IDLE;
 				end	
 			end
 			
+			DELAY: begin nextstate = ROUNDS; end // this is needed so subbytes can provide an output, since it answers a tick late
+			
 			ROUNDS: begin
+				prev_round = round + 4'd1;
 				if (round == 4'd10) begin
 					fsm_next_result = addrndkey_out_final;
 					nextstate = END;
 				end else begin
-					prev_round = round + 1'b1;
+					
 					fsm_next_result = addrndkey_out;
-					nextstate = ROUNDS;
+					nextstate = DELAY;
 					
 				end
 			
@@ -97,13 +102,7 @@ module aes_core(input  logic         clk,
 					
 			END: begin
 				done = 1;
-				if (!load) begin
-					nextstate = IDLE;
-				end
-				else begin 
-					nextstate = END; 
-					prev_round = 4'd0;
-				end
+				nextstate = END; 
 			end
 			
 			default: nextstate = IDLE;

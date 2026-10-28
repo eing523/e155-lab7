@@ -1,0 +1,77 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+!s11f vlog 2025.2 2025.05, May 31 2025
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dC:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/input_to_state_tb
+vinput_to_state
+Z2 2C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex1_state_array/input_to_state_tb.sv|C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex2_shiftrows/input_to_state.sv
+Z3 DXx6 sv_std 3 std 0 22 @5XbY]_OacJl=`ToSm<M^0
+Z4 !s110 1793148259
+!i10b 1
+!s100 H4LRiULLOWJF01f=ffNXG0
+I=LCaR?hPN`JC`b2C<iCD_1
+S1
+R1
+w1792910744
+8C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex2_shiftrows/input_to_state.sv
+FC:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex2_shiftrows/input_to_state.sv
+!i122 0
+L0 10 18
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 OL;L;2025.2;82
+r1
+!s85 0
+31
+Z7 !s108 1793148259.000000
+Z8 !s107 C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex2_shiftrows/input_to_state.sv|C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex1_state_array/input_to_state_tb.sv|
+Z9 !s90 -reportprogress|300|-L|work|-sv|-L|pmi_work|-L|ovi_ice40up|C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex1_state_array/input_to_state_tb.sv|C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex2_shiftrows/input_to_state.sv|-work|qrun.out/work|-statslog|qrun.out/stats_log|-csession=incr|
+!i113 0
+Z10 o-L work -sv -L pmi_work -L ovi_ice40up -work qrun.out/work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 tCvgOpt 0 defaultOptions 1085333592
+vinput_to_state_tb
+R2
+R3
+R4
+!i10b 1
+!s100 kILWb8Wm1VlzAKGg6zDCS1
+ISRPgeFjACcjX1b=7oQ;9K2
+S1
+R1
+w1793148226
+8C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex1_state_array/input_to_state_tb.sv
+FC:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex1_state_array/input_to_state_tb.sv
+!i122 0
+L0 11 81
+R5
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 0
+R10
+R11
+Tqrun_opt
+!i145 1
+!i144 0
+!s110 1793148260
+VRQoNcWDhbULLX4ARZRd6l3
+04 17 4 work input_to_state_tb fast 0
+R0
+!s12f OEM25U2 
+!s12b OEM100
+!s124 OEM100
+!s135 nogc
+o-suppress vopt-7033 -L work +acc +noacc+pmi_work.* +noacc+ovi_ice40up.* -L pmi_work -L ovi_ice40up -work qrun.out/work
+tCvgOpt 0 defaultOptions 1107585188
+nqrun_opt
+OL;O;2025.2;82

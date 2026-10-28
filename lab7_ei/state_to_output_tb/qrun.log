@@ -1,0 +1,26 @@
+# *** Summary *********************************************
+#     qrun: Errors:   0, Warnings:   0
+#     vlog: Errors:   0, Warnings:   1
+#     vopt: Errors:   0, Warnings:   4
+#   Totals: Errors:   0, Warnings:   5
+# ** Note: (vsim-220) 'C:/lscc/radiant/2026.1/questasim/win64/../modelsim.ini' is used as the ini file.
+# vsim -L work -L pmi_work -L ovi_ice40up -lib qrun.out/work -wlf vsim.wlf -gui -do "view wave" -do "add wave /*" -do "run -all" -statslog qrun.out/stats_log qrun_opt -suppress vsim-7033,vsim-8630,3009,3389 -appendlog -l qrun.log 
+# Start time: 17:47:58 on Oct 27,2026
+# Loading sv_std.std
+# Loading work.state_to_output_tb(fast)
+# Loading work.state_to_output(fast)
+# Loading work.input_to_state(fast)
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# add wave /*
+# run -all
+# PASS  Appendix B input
+# PASS  Appendix B round 1 start
+# PASS  round trip
+# PASSED: all 3 tests
+# ** Note: $finish    : C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex1_state_array/state_to_output_tb.sv(75)
+#    Time: 30 ns  Iteration: 0  Instance: /state_to_output_tb
+# 1
+# Break in Module state_to_output_tb at C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex1_state_array/state_to_output_tb.sv line 75
+# End time: 17:48:16 on Oct 27,2026, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 0

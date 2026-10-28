@@ -1,0 +1,5 @@
+testbench_aes_spi,/,C:/Users/eing/Documents/GitHub/e155-lab7/lab07/lab07_fpga/src/aes_spi_tb.sv
+input_to_state_tb,/,C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex1_state_array/input_to_state_tb.sv
+state_to_output_tb,/,C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex1_state_array/state_to_output_tb.sv
+shiftrows_tb,/,C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex2_shiftrows/shiftrows_tb.sv
+mixcolumns_tb,/,C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex3_mixcolumns_a/mixcolumns_tb.sv

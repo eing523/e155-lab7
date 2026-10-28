@@ -1,0 +1,28 @@
+# *** Summary *********************************************
+#     qrun: Errors:   0, Warnings:   0
+#     vlog: Errors:   0, Warnings:   0
+#     vopt: Errors:   0, Warnings:   3
+#   Totals: Errors:   0, Warnings:   3
+# ** Note: (vsim-220) 'C:/lscc/radiant/2026.1/questasim/win64/../modelsim.ini' is used as the ini file.
+# vsim -L work -L pmi_work -L ovi_ice40up -lib qrun.out/work -wlf vsim.wlf -gui -do "view wave" -do "add wave /*" -do "run -all" -statslog qrun.out/stats_log qrun_opt -suppress vsim-7033,vsim-8630,3009,3389 -appendlog -l qrun.log 
+# Start time: 18:03:14 on Oct 27,2026
+# Loading sv_std.std
+# Loading work.mixcolumns_tb(fast)
+# Loading work.mixcolumns(fast)
+# Loading work.mixcolumn(fast)
+# Loading work.galoismult(fast)
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# add wave /*
+# run -all
+# PASS  all 01
+# PASS  all c6
+# PASS  Appendix B round 1
+# PASS  Appendix B round 2
+# PASSED: all 4 tests
+# ** Note: $finish    : C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex3_mixcolumns_a/mixcolumns_tb.sv(74)
+#    Time: 40 ns  Iteration: 0  Instance: /mixcolumns_tb
+# 1
+# Break in Module mixcolumns_tb at C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex3_mixcolumns_a/mixcolumns_tb.sv line 74
+# End time: 18:03:54 on Oct 27,2026, Elapsed time: 0:00:40
+# Errors: 0, Warnings: 0
