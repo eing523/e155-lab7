@@ -31,7 +31,6 @@ module aes_core(input  logic         clk,
 	statetype state, nextstate;
 	
 	logic [3:0] round, prev_round;
-	// maybe no need: next_load
 	logic [127:0] fsm_next_result, fsm_result, key_new; // key_new is the round key
 	logic [127:0] prev_key;
 	logic [127:0] subbytes_out, shiftrows_out, mixcols_out, addrndkey_out, addrndkey_out_final, keyexpans_out;
