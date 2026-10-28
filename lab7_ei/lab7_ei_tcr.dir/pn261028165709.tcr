@@ -1,0 +1,11 @@
+#Start recording tcl command: 10/28/2026 15:07:17
+#Project Location: C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei; Project name: lab7_ei
+prj_open "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/lab7_ei.rdf"
+prj_enable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/keyexpansion_tb.sv"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/keyexpansion_tb/keyexpansion_tb.spf"
+prj_disable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/keyexpansion_tb.sv"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_enable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/aes_spi_tb.sv"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/aes_spi_tb/aes_spi_tb.spf"
+#Stop recording: 10/28/2026 16:57:09

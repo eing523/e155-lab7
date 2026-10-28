@@ -84,24 +84,24 @@ Sections by address:
                                                                 Code  RX  stm32l432xx_Vectors.o
   0800018C-080001E7  SystemInit                         92   4  Code  RX  system_stm32l4xx.o
   080001E8-08000217  MSIRangeTable                      48   4  Cnst  RO  system_stm32l4xx.o
-  08000218-080002AB  main                              148   4  Code  RX  lab7.o
-  080002AC-08000307  checkAnswer                        92   4  Code  RX  lab7.o
-  08000308-08000313  gpioPinToPort                      12   4  Code  RX  STM32L432KC_GPIO.o
-  08000314-08000353  gpioPortToBase                     64   4  Code  RX  STM32L432KC_GPIO.o
-  08000354-08000367  gpioPinToBase                      20   4  Code  RX  STM32L432KC_GPIO.o
-  08000368-08000407  pinMode                           160   4  Code  RX  STM32L432KC_GPIO.o
-  08000408-0800044F  digitalWrite                       72   4  Code  RX  STM32L432KC_GPIO.o
-  08000450-08000533  initSPI                           228   4  Code  RX  STM32L432KC_SPI.o
-  08000534-0800057F  spiSendReceive                     76   4  Code  RX  STM32L432KC_SPI.o
+  08000218-08000223  gpioPinToPort                      12   4  Code  RX  STM32L432KC_GPIO.o
+  08000224-08000263  gpioPortToBase                     64   4  Code  RX  STM32L432KC_GPIO.o
+  08000264-08000277  gpioPinToBase                      20   4  Code  RX  STM32L432KC_GPIO.o
+  08000278-08000317  pinMode                           160   4  Code  RX  STM32L432KC_GPIO.o
+  08000318-0800035F  digitalWrite                       72   4  Code  RX  STM32L432KC_GPIO.o
+  08000360-08000443  initSPI                           228   4  Code  RX  STM32L432KC_SPI.o
+  08000444-0800048F  spiSendReceive                     76   4  Code  RX  STM32L432KC_SPI.o
+  08000490-08000523  main                              148   4  Code  RX  lab7.o
+  08000524-0800057F  checkAnswer                        92   4  Code  RX  lab7.o
   08000580-08000593  _start                             20   4  Code  RX  SEGGER_THUMB_Startup.o
   08000594-080005BB  HardFault_Handler                  40   4  Code  RX  STM32L4xx_Startup.o
   080005BC-0800072D  SystemCoreClockUpdate             370   4  Code  RX  system_stm32l4xx.o
   0800072E-0800072F  NMI_Handler                         2   2  Code  RX  stm32l432xx_Vectors.o
-  08000730-080007FD  encrypt                           206   4  Code  RX  lab7.o
-  080007FE-080007FF  SVC_Handler                         2   2  Code  RX  stm32l432xx_Vectors.o
-  08000800-0800080D  gpioPinOffset                      14   4  Code  RX  STM32L432KC_GPIO.o
-  0800080E-0800080F  PendSV_Handler                      2   2  Code  RX  stm32l432xx_Vectors.o
-  08000810-08000835  digitalRead                        38   4  Code  RX  STM32L432KC_GPIO.o
+  08000730-0800073D  gpioPinOffset                      14   4  Code  RX  STM32L432KC_GPIO.o
+  0800073E-0800073F  SVC_Handler                         2   2  Code  RX  stm32l432xx_Vectors.o
+  08000740-08000765  digitalRead                        38   4  Code  RX  STM32L432KC_GPIO.o
+  08000766-08000767  PendSV_Handler                      2   2  Code  RX  stm32l432xx_Vectors.o
+  08000768-08000835  encrypt                           206   4  Code  RX  lab7.o
   08000836-08000837  SysTick_Handler                     2   2  Code  RX  stm32l432xx_Vectors.o
   08000838-08000839  WWDG_IRQHandler                     2   2  Code  RX  stm32l432xx_Vectors.o
   0800083A-0800083B  PVD_PVM_IRQHandler                  2   2  Code  RX  stm32l432xx_Vectors.o
@@ -234,7 +234,7 @@ Function symbols by name:
   LPUART1_IRQHandler         0x0800089D                  2  Code  Wk  stm32l432xx_Vectors.o
   NMI_Handler                0x0800072F                  2  Code  Wk  stm32l432xx_Vectors.o
   PVD_PVM_IRQHandler         0x0800083B                  2  Code  Wk  stm32l432xx_Vectors.o
-  PendSV_Handler             0x0800080F                  2  Code  Wk  stm32l432xx_Vectors.o
+  PendSV_Handler             0x08000767                  2  Code  Wk  stm32l432xx_Vectors.o
   QUADSPI_IRQHandler         0x0800089F                  2  Code  Wk  stm32l432xx_Vectors.o
   RCC_IRQHandler             0x08000843                  2  Code  Wk  stm32l432xx_Vectors.o
   RNG_IRQHandler             0x080008AB                  2  Code  Wk  stm32l432xx_Vectors.o
@@ -244,7 +244,7 @@ Function symbols by name:
   SAI1_IRQHandler            0x080008A5                  2  Code  Wk  stm32l432xx_Vectors.o
   SPI1_IRQHandler            0x08000877                  2  Code  Wk  stm32l432xx_Vectors.o
   SPI3_IRQHandler            0x08000881                  2  Code  Wk  stm32l432xx_Vectors.o
-  SVC_Handler                0x080007FF                  2  Code  Wk  stm32l432xx_Vectors.o
+  SVC_Handler                0x0800073F                  2  Code  Wk  stm32l432xx_Vectors.o
   SWPMI1_IRQHandler          0x080008A7                  2  Code  Wk  stm32l432xx_Vectors.o
   SysTick_Handler            0x08000837                  2  Code  Wk  stm32l432xx_Vectors.o
   SystemCoreClockUpdate      0x080005BD         370      4  Code  Gb  system_stm32l4xx.o
@@ -267,35 +267,35 @@ Function symbols by name:
   __SEGGER_init_done         0x0800058B                  4  Code  Gb  SEGGER_THUMB_Startup.o
   __startup_complete         0x0800058B                  4  Code  Gb  SEGGER_THUMB_Startup.o
   _start                     0x08000581          14      4  Code  Gb  SEGGER_THUMB_Startup.o
-  checkAnswer                0x080002AD          92      4  Code  Gb  lab7.o
-  digitalRead                0x08000811          38      4  Code  Gb  STM32L432KC_GPIO.o
-  digitalWrite               0x08000409          72      4  Code  Gb  STM32L432KC_GPIO.o
-  encrypt                    0x08000731         206      4  Code  Gb  lab7.o
+  checkAnswer                0x08000525          92      4  Code  Gb  lab7.o
+  digitalRead                0x08000741          38      4  Code  Gb  STM32L432KC_GPIO.o
+  digitalWrite               0x08000319          72      4  Code  Gb  STM32L432KC_GPIO.o
+  encrypt                    0x08000769         206      4  Code  Gb  lab7.o
   exit                       0x0800058F           2      4  Code  Gb  SEGGER_THUMB_Startup.o
-  gpioPinOffset              0x08000801          14      4  Code  Gb  STM32L432KC_GPIO.o
-  gpioPinToBase              0x08000355          20      4  Code  Gb  STM32L432KC_GPIO.o
-  gpioPinToPort              0x08000309          12      4  Code  Gb  STM32L432KC_GPIO.o
-  gpioPortToBase             0x08000315          64      4  Code  Gb  STM32L432KC_GPIO.o
-  initSPI                    0x08000451         228      4  Code  Gb  STM32L432KC_SPI.o
-  main                       0x08000219         148      4  Code  Gb  lab7.o
-  pinMode                    0x08000369         160      4  Code  Gb  STM32L432KC_GPIO.o
+  gpioPinOffset              0x08000731          14      4  Code  Gb  STM32L432KC_GPIO.o
+  gpioPinToBase              0x08000265          20      4  Code  Gb  STM32L432KC_GPIO.o
+  gpioPinToPort              0x08000219          12      4  Code  Gb  STM32L432KC_GPIO.o
+  gpioPortToBase             0x08000225          64      4  Code  Gb  STM32L432KC_GPIO.o
+  initSPI                    0x08000361         228      4  Code  Gb  STM32L432KC_SPI.o
+  main                       0x08000491         148      4  Code  Gb  lab7.o
+  pinMode                    0x08000279         160      4  Code  Gb  STM32L432KC_GPIO.o
   reset_handler              0x080008B3                  2  Code  Gb  STM32L4xx_Startup.o
-  spiSendReceive             0x08000535          76      4  Code  Gb  STM32L432KC_SPI.o
+  spiSendReceive             0x08000445          76      4  Code  Gb  STM32L432KC_SPI.o
 
 Function symbols by address:
 
      Address  Symbol name                      Size  Align  Type  Bd  Object File
   ----------  -------------------------  ----------  -----  ----  --  -----------
   0x0800018D  SystemInit                         92      4  Code  Gb  system_stm32l4xx.o
-  0x08000219  main                              148      4  Code  Gb  lab7.o
-  0x080002AD  checkAnswer                        92      4  Code  Gb  lab7.o
-  0x08000309  gpioPinToPort                      12      4  Code  Gb  STM32L432KC_GPIO.o
-  0x08000315  gpioPortToBase                     64      4  Code  Gb  STM32L432KC_GPIO.o
-  0x08000355  gpioPinToBase                      20      4  Code  Gb  STM32L432KC_GPIO.o
-  0x08000369  pinMode                           160      4  Code  Gb  STM32L432KC_GPIO.o
-  0x08000409  digitalWrite                       72      4  Code  Gb  STM32L432KC_GPIO.o
-  0x08000451  initSPI                           228      4  Code  Gb  STM32L432KC_SPI.o
-  0x08000535  spiSendReceive                     76      4  Code  Gb  STM32L432KC_SPI.o
+  0x08000219  gpioPinToPort                      12      4  Code  Gb  STM32L432KC_GPIO.o
+  0x08000225  gpioPortToBase                     64      4  Code  Gb  STM32L432KC_GPIO.o
+  0x08000265  gpioPinToBase                      20      4  Code  Gb  STM32L432KC_GPIO.o
+  0x08000279  pinMode                           160      4  Code  Gb  STM32L432KC_GPIO.o
+  0x08000319  digitalWrite                       72      4  Code  Gb  STM32L432KC_GPIO.o
+  0x08000361  initSPI                           228      4  Code  Gb  STM32L432KC_SPI.o
+  0x08000445  spiSendReceive                     76      4  Code  Gb  STM32L432KC_SPI.o
+  0x08000491  main                              148      4  Code  Gb  lab7.o
+  0x08000525  checkAnswer                        92      4  Code  Gb  lab7.o
   0x08000581  _start                             14      4  Code  Gb  SEGGER_THUMB_Startup.o
   0x0800058B  __startup_complete                         4  Code  Gb  SEGGER_THUMB_Startup.o
   0x0800058B  __SEGGER_init_done                         4  Code  Gb  SEGGER_THUMB_Startup.o
@@ -303,11 +303,11 @@ Function symbols by address:
   0x08000595  HardFault_Handler                          4  Code  Wk  STM32L4xx_Startup.o
   0x080005BD  SystemCoreClockUpdate             370      4  Code  Gb  system_stm32l4xx.o
   0x0800072F  NMI_Handler                                2  Code  Wk  stm32l432xx_Vectors.o
-  0x08000731  encrypt                           206      4  Code  Gb  lab7.o
-  0x080007FF  SVC_Handler                                2  Code  Wk  stm32l432xx_Vectors.o
-  0x08000801  gpioPinOffset                      14      4  Code  Gb  STM32L432KC_GPIO.o
-  0x0800080F  PendSV_Handler                             2  Code  Wk  stm32l432xx_Vectors.o
-  0x08000811  digitalRead                        38      4  Code  Gb  STM32L432KC_GPIO.o
+  0x08000731  gpioPinOffset                      14      4  Code  Gb  STM32L432KC_GPIO.o
+  0x0800073F  SVC_Handler                                2  Code  Wk  stm32l432xx_Vectors.o
+  0x08000741  digitalRead                        38      4  Code  Gb  STM32L432KC_GPIO.o
+  0x08000767  PendSV_Handler                             2  Code  Wk  stm32l432xx_Vectors.o
+  0x08000769  encrypt                           206      4  Code  Gb  lab7.o
   0x08000837  SysTick_Handler                            2  Code  Wk  stm32l432xx_Vectors.o
   0x08000839  WWDG_IRQHandler                            2  Code  Wk  stm32l432xx_Vectors.o
   0x0800083B  PVD_PVM_IRQHandler                         2  Code  Wk  stm32l432xx_Vectors.o

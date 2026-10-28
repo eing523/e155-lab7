@@ -13,28 +13,28 @@ Z1 dC:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/keyexpansion_tb
 vkeyexpansion
 Z2 2C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/keyexpansion.sv|C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv|C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/keyexpansion_tb.sv
 Z3 DXx6 sv_std 3 std 0 22 @5XbY]_OacJl=`ToSm<M^0
-Z4 !s110 1793187574
+Z4 !s110 1793225461
 !i10b 1
 !s100 8:dMAY;EK6Rm=3TimW=De1
 IMWT_JW>@8gGh@[_f_1Uf^3
 S1
 R1
-w1793171107
+Z5 w1793223898
 8C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/keyexpansion.sv
 FC:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/keyexpansion.sv
 !i122 0
 L0 8 53
-Z5 VDg1SIo80bB@j0V0VzS_@n1
-Z6 OL;L;2025.2;82
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2025.2;82
 r1
 !s85 0
 31
-Z7 !s108 1793187574.000000
-Z8 !s107 C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/keyexpansion_tb.sv|C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv|C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/keyexpansion.sv|
-Z9 !s90 -reportprogress|300|-L|work|-sv|-L|pmi_work|-L|ovi_ice40up|C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/keyexpansion.sv|C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv|C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/keyexpansion_tb.sv|-work|qrun.out/work|-statslog|qrun.out/stats_log|-csession=incr|
+Z8 !s108 1793225460.000000
+Z9 !s107 C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/keyexpansion_tb.sv|C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv|C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/keyexpansion.sv|
+Z10 !s90 -reportprogress|300|-L|work|-sv|-L|pmi_work|-L|ovi_ice40up|C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/keyexpansion.sv|C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv|C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/keyexpansion_tb.sv|-work|qrun.out/work|-statslog|qrun.out/stats_log|-csession=incr|
 !i113 0
-Z10 o-L work -sv -L pmi_work -L ovi_ice40up -work qrun.out/work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z11 tCvgOpt 0 defaultOptions 1085333592
+Z11 o-L work -sv -L pmi_work -L ovi_ice40up -work qrun.out/work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 tCvgOpt 0 defaultOptions 1085333592
 vkeyexpansion_tb
 R2
 R3
@@ -44,27 +44,27 @@ R4
 IL0V7LV1d`X]e8ggG0=M;P3
 S1
 R1
-w1793186866
+R5
 8C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/keyexpansion_tb.sv
 FC:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/keyexpansion_tb.sv
 !i122 0
 L0 7 38
-R5
 R6
+R7
 r1
 !s85 0
 31
-R7
 R8
 R9
-!i113 0
 R10
+!i113 0
 R11
+R12
 Tqrun_opt
 !i145 1
 !i144 0
-!s110 1793187575
-VP_hejZfTSBL:M5XiHKfg40
+!s110 1793225462
+VBldKbV<>FW=j[jj`Q<P1W1
 04 15 4 work keyexpansion_tb fast 0
 R0
 !s12f OEM25U6 
@@ -84,19 +84,19 @@ R4
 IeN[@3@CF_e6FMFHlB>E203
 S1
 R1
-w1793162213
+R5
 8C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv
 FC:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv
 !i122 0
 L0 7 16
-R5
 R6
+R7
 r1
 !s85 0
 31
-R7
 R8
 R9
-!i113 0
 R10
+!i113 0
 R11
+R12

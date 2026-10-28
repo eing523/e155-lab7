@@ -1,0 +1,12 @@
+#Start recording tcl command: 10/28/2026 14:48:21
+#Project Location: C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei; Project name: lab7_ei
+prj_open "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/lab7_ei.rdf"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1 -task Bitgen
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+#Stop recording: 10/28/2026 15:02:25

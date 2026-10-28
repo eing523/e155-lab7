@@ -5,7 +5,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2026 Lattice Semiconductor Corporation,  All rights reserved.
-Wed Oct 28 14:34:24 2026
+Wed Oct 28 15:21:06 2026
 
 
 Command Line:  C:\lscc\radiant\2026.1\ispfpga\bin\nt64\synthesis.exe -f C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/impl_1/lab7_ei_impl_1_lattice.synproj -logfile lab7_ei_impl_1_lattice.srp -gui -msgset C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/promote.xml 
@@ -197,23 +197,23 @@ WARNING <1009991> - synthesis: ../source/impl_1/sbox_sync.sv(14): initial value 
 INFO <35001774> - synthesis: Extracted state machine for register '\core/state' with one-hot encoding
 State machine has 4 reachable states with original encodings of:
 
- 001 
+ 00 
 
- 010 
+ 01 
 
- 011 
+ 10 
 
- 100 
+ 11 
 
 original encoding -> new encoding (one-hot encoding)
 
- 001 -> 0001
+ 00 -> 0001
 
- 010 -> 0010
+ 01 -> 0010
 
- 011 -> 0100
+ 10 -> 0100
 
- 100 -> 1000
+ 11 -> 1000
 
 
 
@@ -249,15 +249,15 @@ Number of Clock Enables: 0
 Highest fanout non-clock nets
 Top 10 highest fanout non-clock nets:
   Net : load_c, loads : 268
-  Net : core/fsm_next_result_127__N_262[3], loads : 136
+  Net : core/fsm_next_result_127__N_262[2], loads : 136
   Net : core/n7, loads : 133
-  Net : core/n2252, loads : 130
-  Net : core/n2552, loads : 129
+  Net : core/n2209, loads : 130
+  Net : core/n2525, loads : 129
   Net : spi/wasdone, loads : 128
   Net : core/round[0], loads : 12
   Net : core/cyphertext_127__N_1[28], loads : 11
-  Net : core/cyphertext_127__N_1[26], loads : 11
-  Net : core/round[2], loads : 11
+  Net : core/cyphertext_127__N_1[27], loads : 11
+  Net : core/cyphertext_127__N_1[31], loads : 11
 ################### End Clock Report ##################
 
 ################### Begin Constraint Report ######################
@@ -266,10 +266,10 @@ Constraint Summary:
   Total number of constraints dropped: 0
 ###################  End Constraint Report  ######################
 
-Peak Memory Usage: 103 MB
+Peak Memory Usage: 102 MB
 
 --------------------------------------------------------------
 Total CPU Time: 1 secs 
-Total REAL Time: 2 secs 
+Total REAL Time: 4 secs 
 --------------------------------------------------------------
-Checksum -- synthesis -- netlist: ec1f64d30d1f4e5be76b7e29ebde95734175fb1
+Checksum -- synthesis -- netlist: cf537dcbcfa43b92aca5193598b634f29c9cfdf2

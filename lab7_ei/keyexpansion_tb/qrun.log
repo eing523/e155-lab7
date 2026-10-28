@@ -121,3 +121,24 @@
 # Simulation stop requested.
 # End time: 04:40:20 on Oct 28,2026, Elapsed time: 0:00:45
 # Errors: 0, Warnings: 0
+# *** Summary *********************************************
+#     qrun: Errors:   0, Warnings:   0
+#     vlog: Errors:   0, Warnings:   0
+#     vopt: Errors:   0, Warnings:   3
+#   Totals: Errors:   0, Warnings:   3
+# ** Note: (vsim-220) 'C:/lscc/radiant/2026.1/questasim/win64/../modelsim.ini' is used as the ini file.
+# vsim -L work -L pmi_work -L ovi_ice40up -lib qrun.out/work -wlf vsim.wlf -gui -do "view wave" -do "add wave /*" -do "run -all" -statslog qrun.out/stats_log qrun_opt -suppress vsim-7033,vsim-8630,3009,3389 -appendlog -l qrun.log 
+# Start time: 15:11:03 on Oct 28,2026
+# Loading sv_std.std
+# Loading work.keyexpansion_tb(fast)
+# Loading work.keyexpansion(fast)
+# Loading work.sbox_sync(fast)
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# add wave /*
+# run -all
+# Passed! (Appendix B)
+# Break key hit
+# Simulation stop requested.
+# End time: 15:21:01 on Oct 28,2026, Elapsed time: 0:09:58
+# Errors: 0, Warnings: 0
