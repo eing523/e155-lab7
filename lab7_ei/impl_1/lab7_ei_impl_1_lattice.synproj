@@ -34,10 +34,7 @@
 -path "."
 -path ".."
 -path "../../lab07/lab07_fpga/src"
--path "../../lab07/workshop/ex1_state_array"
 -path "../../lab07/workshop/ex2_shiftrows"
--path "../../lab07/workshop/ex3_mixcolumns_a"
--path "../../lab07/workshop/stretch_round_trace"
 -path "../source/impl_1"
 
 # PMI Library Files
@@ -56,6 +53,7 @@
 -sver "../source/impl_1/sbox_sync.sv"
 -sver "../source/impl_1/addroundkey.sv"
 -sver "../source/impl_1/subbytes.sv"
+-sver "../source/impl_1/aes_spi_tb.sv"
 -path ".."
 -top aes
 # Output Configuration

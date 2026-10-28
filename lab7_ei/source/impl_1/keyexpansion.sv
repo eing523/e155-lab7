@@ -18,25 +18,26 @@ module keyexpansion(input  logic clk,
 	
 	always_comb begin
 		case(round)
-			4'd0: round_const = 32'h01000000;
-			4'd1: round_const = 32'h02000000;
-			4'd2: round_const = 32'h04000000;
-			4'd3: round_const = 32'h08000000;
-			4'd4: round_const = 32'h10000000;
-			4'd5: round_const = 32'h20000000;
-			4'd6: round_const = 32'h40000000;
-			4'd7: round_const = 32'h80000000;
-			4'd8: round_const = 32'h1b000000;
-			4'd9: round_const = 32'h36000000;
+			4'd1: round_const = 32'h01000000;
+			4'd2: round_const = 32'h02000000;
+			4'd3: round_const = 32'h04000000;
+			4'd4: round_const = 32'h08000000;
+			4'd5: round_const = 32'h10000000;
+			4'd6: round_const = 32'h20000000;
+			4'd7: round_const = 32'h40000000;
+			4'd8: round_const = 32'h80000000;
+			4'd9: round_const = 32'h1b000000;
+			4'd10: round_const = 32'h36000000;
 			default: round_const = 32'h01000000;
 		endcase
 	end
 	
-	// each word (which is selected by key) is one column from the state and this is also rotword()
+	// each word (which is selected by key) is one column from the state
+	assign col0 = key[127:96];
 	assign col1 = key[95:64];
 	assign col2 = key[63:32];
 	assign col3 = key[31:0];
-	assign col0 = key[127:96];
+	
 	
 	// subword() from sbox_sync for word (which is 32 bits total aka 4 bytes)
 	sbox_sync sbox_sync_inst1 (.a(key[23:16]), .clk(clk), .y(output1));

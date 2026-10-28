@@ -3,8 +3,8 @@
 -reflib ovi_ice40up
 
 
-"C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex3_mixcolumns_a/mixcolumns_tb.sv" 
 "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/mixcolumns.sv" 
+"C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/mixcolumns_tb.sv" 
 -sv
 -optionset VOPTDEBUG
 +noacc+pmi_work.*

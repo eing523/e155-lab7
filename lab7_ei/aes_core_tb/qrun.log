@@ -1,0 +1,275 @@
+# *** Summary *********************************************
+#     qrun: Errors:   0, Warnings:   0
+#     vlog: Errors:   0, Warnings:   1
+#     vopt: Errors:   0, Warnings:   4
+#   Totals: Errors:   0, Warnings:   5
+# ** Note: (vsim-220) 'C:/lscc/radiant/2026.1/questasim/win64/../modelsim.ini' is used as the ini file.
+# vsim -L work -L pmi_work -L ovi_ice40up -lib qrun.out/work -wlf vsim.wlf -gui -do "view wave" -do "add wave /*" -do "run -all" -statslog qrun.out/stats_log qrun_opt -suppress vsim-7033,vsim-8630,3009,3389 -appendlog -l qrun.log 
+# Start time: 21:12:34 on Oct 27,2026
+# Loading sv_std.std
+# Loading work.testbench_aes_core(fast)
+# Loading work.aes_core(fast)
+# Loading work.subbytes(fast)
+# Loading work.sbox_sync(fast)
+# Loading work.shiftrows(fast)
+# Loading work.input_to_state(fast)
+# Loading work.state_to_output(fast)
+# Loading work.mixcolumns(fast)
+# Loading work.mixcolumn(fast)
+# Loading work.galoismult(fast)
+# Loading work.addroundkey(fast)
+# Loading work.keyexpansion(fast)
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# add wave /*
+# run -all
+# ** Warning: (vsim-7) Failed to open readmem file "sbox.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_aes_core/dut/subbytes_inst/sbox16
+# ** Warning: (vsim-7) Failed to open readmem file "sbox.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_aes_core/dut/subbytes_inst/sbox15
+# ** Warning: (vsim-7) Failed to open readmem file "sbox.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_aes_core/dut/subbytes_inst/sbox14
+# ** Warning: (vsim-7) Failed to open readmem file "sbox.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_aes_core/dut/subbytes_inst/sbox13
+# ** Warning: (vsim-7) Failed to open readmem file "sbox.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_aes_core/dut/subbytes_inst/sbox12
+# ** Warning: (vsim-7) Failed to open readmem file "sbox.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_aes_core/dut/subbytes_inst/sbox11
+# ** Warning: (vsim-7) Failed to open readmem file "sbox.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_aes_core/dut/subbytes_inst/sbox10
+# ** Warning: (vsim-7) Failed to open readmem file "sbox.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_aes_core/dut/subbytes_inst/sbox9
+# ** Warning: (vsim-7) Failed to open readmem file "sbox.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_aes_core/dut/subbytes_inst/sbox8
+# ** Warning: (vsim-7) Failed to open readmem file "sbox.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_aes_core/dut/subbytes_inst/sbox7
+# ** Warning: (vsim-7) Failed to open readmem file "sbox.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_aes_core/dut/subbytes_inst/sbox6
+# ** Warning: (vsim-7) Failed to open readmem file "sbox.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_aes_core/dut/subbytes_inst/sbox5
+# ** Warning: (vsim-7) Failed to open readmem file "sbox.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_aes_core/dut/subbytes_inst/sbox4
+# ** Warning: (vsim-7) Failed to open readmem file "sbox.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_aes_core/dut/subbytes_inst/sbox3
+# ** Warning: (vsim-7) Failed to open readmem file "sbox.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_aes_core/dut/subbytes_inst/sbox2
+# ** Warning: (vsim-7) Failed to open readmem file "sbox.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_aes_core/dut/subbytes_inst/sbox1
+# ** Warning: (vsim-7) Failed to open readmem file "sbox.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_aes_core/dut/keyexpansion_inst/sbox_sync_inst1
+# ** Warning: (vsim-7) Failed to open readmem file "sbox.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_aes_core/dut/keyexpansion_inst/sbox_sync_inst2
+# ** Warning: (vsim-7) Failed to open readmem file "sbox.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_aes_core/dut/keyexpansion_inst/sbox_sync_inst3
+# ** Warning: (vsim-7) Failed to open readmem file "sbox.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_aes_core/dut/keyexpansion_inst/sbox_sync_inst0
+# Error: cyphertext = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, expected 3925841d02dc09fbdc118597196a0b32
+# ** Note: $stop    : C:/Users/eing/Documents/GitHub/e155-lab7/lab07/lab07_fpga/src/aes_core_tb.sv(48)
+#    Time: 2350 ns  Iteration: 1  Instance: /testbench_aes_core
+# Break in Module testbench_aes_core at C:/Users/eing/Documents/GitHub/e155-lab7/lab07/lab07_fpga/src/aes_core_tb.sv line 48
+# End time: 21:16:37 on Oct 27,2026, Elapsed time: 0:04:03
+# Errors: 0, Warnings: 20
+# *** Summary *********************************************
+#     qrun: Errors:   0, Warnings:   0
+#     vlog: Errors:   0, Warnings:   1
+#     vopt: Errors:   0, Warnings:   4
+#   Totals: Errors:   0, Warnings:   5
+# ** Note: (vsim-220) 'C:/lscc/radiant/2026.1/questasim/win64/../modelsim.ini' is used as the ini file.
+# vsim -L work -L pmi_work -L ovi_ice40up -lib qrun.out/work -wlf vsim.wlf -gui -do "view wave" -do "add wave /*" -do "run -all" -statslog qrun.out/stats_log qrun_opt -suppress vsim-7033,vsim-8630,3009,3389 -appendlog -l qrun.log 
+# Start time: 21:24:48 on Oct 27,2026
+# Loading sv_std.std
+# Loading work.testbench_aes_core(fast)
+# Loading work.aes_core(fast)
+# Loading work.subbytes(fast)
+# Loading work.sbox_sync(fast)
+# Loading work.shiftrows(fast)
+# Loading work.input_to_state(fast)
+# Loading work.state_to_output(fast)
+# Loading work.mixcolumns(fast)
+# Loading work.mixcolumn(fast)
+# Loading work.galoismult(fast)
+# Loading work.addroundkey(fast)
+# Loading work.keyexpansion(fast)
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# add wave /*
+# run -all
+# ** Warning: (vsim-7) Failed to open readmem file "sbox.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_aes_core/dut/subbytes_inst/sbox16
+# ** Warning: (vsim-7) Failed to open readmem file "sbox.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_aes_core/dut/subbytes_inst/sbox15
+# ** Warning: (vsim-7) Failed to open readmem file "sbox.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_aes_core/dut/subbytes_inst/sbox14
+# ** Warning: (vsim-7) Failed to open readmem file "sbox.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_aes_core/dut/subbytes_inst/sbox13
+# ** Warning: (vsim-7) Failed to open readmem file "sbox.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_aes_core/dut/subbytes_inst/sbox12
+# ** Warning: (vsim-7) Failed to open readmem file "sbox.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_aes_core/dut/subbytes_inst/sbox11
+# ** Warning: (vsim-7) Failed to open readmem file "sbox.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_aes_core/dut/subbytes_inst/sbox10
+# ** Warning: (vsim-7) Failed to open readmem file "sbox.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_aes_core/dut/subbytes_inst/sbox9
+# ** Warning: (vsim-7) Failed to open readmem file "sbox.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_aes_core/dut/subbytes_inst/sbox8
+# ** Warning: (vsim-7) Failed to open readmem file "sbox.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_aes_core/dut/subbytes_inst/sbox7
+# ** Warning: (vsim-7) Failed to open readmem file "sbox.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_aes_core/dut/subbytes_inst/sbox6
+# ** Warning: (vsim-7) Failed to open readmem file "sbox.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_aes_core/dut/subbytes_inst/sbox5
+# ** Warning: (vsim-7) Failed to open readmem file "sbox.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_aes_core/dut/subbytes_inst/sbox4
+# ** Warning: (vsim-7) Failed to open readmem file "sbox.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_aes_core/dut/subbytes_inst/sbox3
+# ** Warning: (vsim-7) Failed to open readmem file "sbox.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_aes_core/dut/subbytes_inst/sbox2
+# ** Warning: (vsim-7) Failed to open readmem file "sbox.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_aes_core/dut/subbytes_inst/sbox1
+# ** Warning: (vsim-7) Failed to open readmem file "sbox.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_aes_core/dut/keyexpansion_inst/sbox_sync_inst1
+# ** Warning: (vsim-7) Failed to open readmem file "sbox.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_aes_core/dut/keyexpansion_inst/sbox_sync_inst2
+# ** Warning: (vsim-7) Failed to open readmem file "sbox.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_aes_core/dut/keyexpansion_inst/sbox_sync_inst3
+# ** Warning: (vsim-7) Failed to open readmem file "sbox.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(16)
+#    Time: 0 ns  Iteration: 0  Instance: /testbench_aes_core/dut/keyexpansion_inst/sbox_sync_inst0
+# Error: cyphertext = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx, expected 3925841d02dc09fbdc118597196a0b32
+# ** Note: $stop    : C:/Users/eing/Documents/GitHub/e155-lab7/lab07/lab07_fpga/src/aes_core_tb.sv(48)
+#    Time: 2350 ns  Iteration: 1  Instance: /testbench_aes_core
+# Break in Module testbench_aes_core at C:/Users/eing/Documents/GitHub/e155-lab7/lab07/lab07_fpga/src/aes_core_tb.sv line 48
+# End time: 21:25:22 on Oct 27,2026, Elapsed time: 0:00:34
+# Errors: 0, Warnings: 20
+# *** Summary *********************************************
+#     qrun: Errors:   0, Warnings:   0
+#     vlog: Errors:   0, Warnings:   1
+#     vopt: Errors:   0, Warnings:   4
+#   Totals: Errors:   0, Warnings:   5
+# ** Note: (vsim-220) 'C:/lscc/radiant/2026.1/questasim/win64/../modelsim.ini' is used as the ini file.
+# vsim -L work -L pmi_work -L ovi_ice40up -lib qrun.out/work -wlf vsim.wlf -gui -do "view wave" -do "add wave /*" -do "run -all" -statslog qrun.out/stats_log qrun_opt -suppress vsim-7033,vsim-8630,3009,3389 -appendlog -l qrun.log 
+# Start time: 21:42:39 on Oct 27,2026
+# Loading sv_std.std
+# Loading work.testbench_aes_core(fast)
+# Loading work.aes_core(fast)
+# Loading work.subbytes(fast)
+# Loading work.sbox_sync(fast)
+# Loading work.shiftrows(fast)
+# Loading work.input_to_state(fast)
+# Loading work.state_to_output(fast)
+# Loading work.mixcolumns(fast)
+# Loading work.mixcolumn(fast)
+# Loading work.galoismult(fast)
+# Loading work.addroundkey(fast)
+# Loading work.keyexpansion(fast)
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# add wave /*
+# run -all
+# Error: cyphertext = e3a97ba73d9e2765608f8170fe7fe511, expected 3925841d02dc09fbdc118597196a0b32
+# ** Note: $stop    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/aes_core_tb.sv(48)
+#    Time: 2350 ns  Iteration: 1  Instance: /testbench_aes_core
+# Break in Module testbench_aes_core at C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/aes_core_tb.sv line 48
+# End time: 22:03:46 on Oct 27,2026, Elapsed time: 0:21:07
+# Errors: 0, Warnings: 0
+# *** Summary *********************************************
+#     qrun: Errors:   0, Warnings:   0
+#     vlog: Errors:   0, Warnings:   1
+#     vopt: Errors:   0, Warnings:   4
+#   Totals: Errors:   0, Warnings:   5
+# ** Note: (vsim-220) 'C:/lscc/radiant/2026.1/questasim/win64/../modelsim.ini' is used as the ini file.
+# vsim -L work -L pmi_work -L ovi_ice40up -lib qrun.out/work -wlf vsim.wlf -gui -do "view wave" -do "add wave /*" -do "run -all" -statslog qrun.out/stats_log qrun_opt -suppress vsim-7033,vsim-8630,3009,3389 -appendlog -l qrun.log 
+# Start time: 22:57:27 on Oct 27,2026
+# Loading sv_std.std
+# Loading work.testbench_aes_core(fast)
+# Loading work.aes_core(fast)
+# Loading work.subbytes(fast)
+# Loading work.sbox_sync(fast)
+# Loading work.shiftrows(fast)
+# Loading work.input_to_state(fast)
+# Loading work.state_to_output(fast)
+# Loading work.mixcolumns(fast)
+# Loading work.mixcolumn(fast)
+# Loading work.galoismult(fast)
+# Loading work.addroundkey(fast)
+# Loading work.keyexpansion(fast)
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# add wave /*
+# run -all
+# Testbench ran successfully
+# ** Note: $stop    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/aes_core_tb.sv(48)
+#    Time: 2350 ns  Iteration: 1  Instance: /testbench_aes_core
+# Break in Module testbench_aes_core at C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/aes_core_tb.sv line 48
+# End time: 23:13:44 on Oct 27,2026, Elapsed time: 0:16:17
+# Errors: 0, Warnings: 0
+# *** Summary *********************************************
+#     qrun: Errors:   0, Warnings:   0
+#     vlog: Errors:   0, Warnings:   1
+#     vopt: Errors:   0, Warnings:   4
+#   Totals: Errors:   0, Warnings:   5
+# ** Note: (vsim-220) 'C:/lscc/radiant/2026.1/questasim/win64/../modelsim.ini' is used as the ini file.
+# vsim -L work -L pmi_work -L ovi_ice40up -lib qrun.out/work -wlf vsim.wlf -gui -do "view wave" -do "add wave /*" -do "run -all" -statslog qrun.out/stats_log qrun_opt -suppress vsim-7033,vsim-8630,3009,3389 -appendlog -l qrun.log 
+# Start time: 23:13:48 on Oct 27,2026
+# Loading sv_std.std
+# Loading work.testbench_aes_core(fast)
+# Loading work.aes_core(fast)
+# Loading work.subbytes(fast)
+# Loading work.sbox_sync(fast)
+# Loading work.shiftrows(fast)
+# Loading work.input_to_state(fast)
+# Loading work.state_to_output(fast)
+# Loading work.mixcolumns(fast)
+# Loading work.mixcolumn(fast)
+# Loading work.galoismult(fast)
+# Loading work.addroundkey(fast)
+# Loading work.keyexpansion(fast)
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# add wave /*
+# run -all
+# Testbench ran successfully
+# ** Note: $stop    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/aes_core_tb.sv(48)
+#    Time: 2350 ns  Iteration: 1  Instance: /testbench_aes_core
+# Break in Module testbench_aes_core at C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/aes_core_tb.sv line 48
+# End time: 23:20:33 on Oct 27,2026, Elapsed time: 0:06:45
+# Errors: 0, Warnings: 0

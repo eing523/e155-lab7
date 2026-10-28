@@ -1,0 +1,10 @@
+<RadiantSimulationProject language="1" name="keyexpansion_tb" path="." simType="QuestaSim Qrun" stage="0" version="2.0">
+    <Source include="none" langstandard="System Verilog" path="source/impl_1/keyexpansion.sv" type="VERILOG" worklib="work"/>
+    <Source include="none" langstandard="System Verilog" path="source/impl_1/sbox_sync.sv" type="VERILOG" worklib="work"/>
+    <Source include="none" langstandard="System Verilog" path="source/impl_1/keyexpansion_tb.sv" type="VERILOG" worklib="work"/>
+    <SimLib value="pmi_work ovi_ice40up"/>
+    <GlbInc value=""/>
+    <Macro value=""/>
+    <Udo value=""/>
+    <TopModule instance="" language="VERILOG" name="keyexpansion_tb"/>
+</RadiantSimulationProject>

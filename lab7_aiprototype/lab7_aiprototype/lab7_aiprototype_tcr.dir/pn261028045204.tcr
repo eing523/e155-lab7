@@ -1,0 +1,14 @@
+#Start recording tcl command: 10/28/2026 04:44:14
+#Project Location: C:/Users/eing/Documents/GitHub/e155-lab7/lab7_aiprototype/lab7_aiprototype; Project name: lab7_aiprototype
+prj_create -name "lab7_aiprototype" -impl "impl_1" -dev iCE40UP5K-SG48I -performance "High-Performance_1.2V" -synthesis "lse"
+prj_save 
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_aiprototype/lab7_aiprototype/source/impl_1/aiprototype.sv"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+#Stop recording: 10/28/2026 04:52:04

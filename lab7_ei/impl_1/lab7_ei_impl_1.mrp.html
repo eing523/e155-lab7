@@ -49,20 +49,22 @@ Package: SG48
 Performance Grade:  High-Performance_1.2V
 
 Mapper:    version Radiant Software (64-bit) 2026.1.0.37.0
-Mapped on: Tue Oct 27 17:32:14 2026
+Mapped on: Wed Oct 28 02:26:04 2026
 
 <A name="mrp_di"></A><B><U><big>Design Information</big></U></B>
 
-Command line:   map -i lab7_ei_impl_1_syn.udb -o lab7_ei_impl_1_map.udb -mp
-     lab7_ei_impl_1.mrp -hierrpt -gui -msgset
+Command line:   map -pdc
+     C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/lab7_ei.pdc -i
+     lab7_ei_impl_1_syn.udb -o lab7_ei_impl_1_map.udb -mp lab7_ei_impl_1.mrp
+     -hierrpt -gui -msgset
      C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/promote.xml
 
 <A name="mrp_ds"></A><B><U><big>Design Summary</big></U></B>
 
    Number of slice registers: 648 out of  5280 (12%)
    Number of I/O registers:      1 out of   117 (1%)
-   Number of LUT4s:           1268 out of  5280 (24%)
-      Number of logic LUT4s:             1009
+   Number of LUT4s:           1267 out of  5280 (24%)
+      Number of logic LUT4s:             1008
       Number of inserted feedthru LUT4s: 259
       Number of ripple logic:              0 (0 LUT4s)
    Number of IO sites used:   6 out of 39 (15%)
@@ -91,21 +93,21 @@ Command line:   map -i lab7_ei_impl_1_syn.udb -o lab7_ei_impl_1_map.udb -mp
       Net clk_c: 284 loads, 284 rising, 0 falling (Driver: Port clk)
    Number of Clock Enables:  3
       Net sdo_pad.vcc: 60 loads, 0 SLICEs
-      Net core.n2510: 128 loads, 128 SLICEs
-      Net core.n2200: 128 loads, 128 SLICEs
+      Net core.n2525: 128 loads, 128 SLICEs
+      Net core.n2209: 128 loads, 128 SLICEs
    Number of LSRs:  1
       Pin load: 7 loads, 7 SLICEs (Net: load_c)
    Top 10 highest fanout non-clock nets:
       Net load_c: 269 loads
       Net core.fsm_next_result_127__N_262[2]: 136 loads
       Net core.n7: 130 loads
-      Net core.n2200: 128 loads
-      Net core.n2510: 128 loads
+      Net core.n2209: 128 loads
+      Net core.n2525: 128 loads
       Net spi.wasdone: 128 loads
       Net sdo_pad.vcc: 60 loads
       Net core.round[0]: 12 loads
-      Net core.round[1]: 10 loads
-      Net core.round[2]: 10 loads
+      Net core.round[1]: 11 loads
+      Net core.round[2]: 11 loads
 
    Number of warnings:  0
    Number of criticals: 0
@@ -186,15 +188,15 @@ Instance Name: core/keyexpansion_inst/sbox_sync_inst0/prev_key_24__I_0
 
 <A name="mrp_consum"></A><B><U><big>Constraint Summary</big></U></B>
 
-   Total number of constraints: 1
+   Total number of constraints: 6
    Total number of constraints dropped: 0
 
 <A name="mrp_runtime"></A><B><U><big>Run Time and Memory Usage</big></U></B>
 
    Total CPU Time: 0 secs
    Total REAL Time: 0 secs
-   Peak Memory Usage: 83 MB
-Checksum -- map: ec1fcf735292b38f699bb542cf5c8cef3115a3b4
+   Peak Memory Usage: 87 MB
+Checksum -- map: a36608df20bb3b37dfdf6e3c1e63dcf1e4e8f76
 Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
 Copyright (c) 1995
      AT&amp;T Corp.   All rights reserved.

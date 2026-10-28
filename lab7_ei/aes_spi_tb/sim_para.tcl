@@ -5,12 +5,12 @@ set ::bali::simulation::Para(DEVICEFAMILYNAME) {iCE40UP}
 set ::bali::simulation::Para(PROJECT) {aes_spi_tb}
 set ::bali::simulation::Para(MDOFILE) {}
 set ::bali::simulation::Para(PROJECTPATH) {C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/aes_spi_tb}
-set ::bali::simulation::Para(FILELIST) {"C:/Users/eing/Documents/GitHub/e155-lab7/lab07/lab07_fpga/src/aes_spi_tb.sv" "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/aes_spi.sv" }
+set ::bali::simulation::Para(FILELIST) {"C:/Users/eing/Documents/GitHub/e155-lab7/lab07/lab07_fpga/src/aes_starter.sv" "C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex2_shiftrows/input_to_state.sv" "C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex2_shiftrows/shiftrows.sv" "C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex2_shiftrows/state_to_output.sv" "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/aes_spi.sv" "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/aes_core.sv" "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/mixcolumns.sv" "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/keyexpansion.sv" "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv" "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/addroundkey.sv" "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/subbytes.sv" "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/aes_spi_tb.sv" }
 set ::bali::simulation::Para(GLBINCLIST) {}
-set ::bali::simulation::Para(INCLIST) {"none" "none"}
-set ::bali::simulation::Para(WORKLIBLIST) {"work" "work" }
-set ::bali::simulation::Para(COMPLIST) {"VERILOG" "VERILOG" }
-set ::bali::simulation::Para(LANGSTDLIST) {"System Verilog" "System Verilog" }
+set ::bali::simulation::Para(INCLIST) {"none" "none" "none" "none" "none" "none" "none" "none" "none" "none" "none" "none"}
+set ::bali::simulation::Para(WORKLIBLIST) {"work" "work" "work" "work" "work" "work" "work" "work" "work" "work" "work" "work" }
+set ::bali::simulation::Para(COMPLIST) {"VERILOG" "VERILOG" "VERILOG" "VERILOG" "VERILOG" "VERILOG" "VERILOG" "VERILOG" "VERILOG" "VERILOG" "VERILOG" "VERILOG" }
+set ::bali::simulation::Para(LANGSTDLIST) {"System Verilog" "System Verilog" "System Verilog" "System Verilog" "System Verilog" "System Verilog" "System Verilog" "System Verilog" "System Verilog" "System Verilog" "System Verilog" "System Verilog" }
 set ::bali::simulation::Para(SIMLIBLIST) {pmi_work ovi_ice40up}
 set ::bali::simulation::Para(MACROLIST) {}
 set ::bali::simulation::Para(SIMULATIONTOPMODULE) {testbench_aes_spi}

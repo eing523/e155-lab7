@@ -9,7 +9,7 @@ I/O cells:      6
                                  IB         4          100.0
                                 INV         1          100.0
                               IOL_B         1          100.0
-                               LUT4      1008          100.0
+                               LUT4      1007          100.0
                                  OB         2          100.0
 SUB MODULES
                            aes_core         1
@@ -41,7 +41,7 @@ SUB MODULES
                        sbox_sync_U8         1
                        sbox_sync_U9         1
                            subbytes         1
-                              TOTAL      1713
+                              TOTAL      1712
 ----------------------------------------------------------------------
 Report for cell aes_spi.v1
 Instance Path : spi
@@ -59,7 +59,7 @@ Instance Path : core
                                cell     count   Res Usage(%)
                               EBR_B        20          100.0
                             FD1P3XZ       264           40.7
-                               LUT4       880           87.3
+                               LUT4       879           87.3
 SUB MODULES
                        keyexpansion         1
                           mixcolumn         1
@@ -88,7 +88,7 @@ SUB MODULES
                        sbox_sync_U8         1
                        sbox_sync_U9         1
                            subbytes         1
-                              TOTAL      1191
+                              TOTAL      1190
 ----------------------------------------------------------------------
 Report for cell subbytes.v1
 Instance Path : core.subbytes_inst
@@ -230,34 +230,34 @@ Report for cell mixcolumns.v1
 Instance Path : core.mixcolumns_inst
                                   Cell usage:
                                cell     count   Res Usage(%)
-                               LUT4       105           10.4
+                               LUT4       101           10.0
 SUB MODULES
                           mixcolumn         1
                       mixcolumn_U15         1
                       mixcolumn_U16         1
                       mixcolumn_U17         1
-                              TOTAL       109
+                              TOTAL       105
 ----------------------------------------------------------------------
 Report for cell mixcolumn.v1
 Instance Path : core.mixcolumns_inst.mc3
                                   Cell usage:
                                cell     count   Res Usage(%)
-                               LUT4        23            2.3
-                              TOTAL        23
+                               LUT4        22            2.2
+                              TOTAL        22
 ----------------------------------------------------------------------
 Report for cell mixcolumn_U15.v1
 Instance Path : core.mixcolumns_inst.mc2
                                   Cell usage:
                                cell     count   Res Usage(%)
-                               LUT4        27            2.7
-                              TOTAL        27
+                               LUT4        25            2.5
+                              TOTAL        25
 ----------------------------------------------------------------------
 Report for cell mixcolumn_U16.v1
 Instance Path : core.mixcolumns_inst.mc1
                                   Cell usage:
                                cell     count   Res Usage(%)
-                               LUT4        31            3.1
-                              TOTAL        31
+                               LUT4        30            3.0
+                              TOTAL        30
 ----------------------------------------------------------------------
 Report for cell mixcolumn_U17.v1
 Instance Path : core.mixcolumns_inst.mc0
@@ -271,13 +271,13 @@ Instance Path : core.keyexpansion_inst
                                   Cell usage:
                                cell     count   Res Usage(%)
                               EBR_B         4           20.0
-                               LUT4       136           13.5
+                               LUT4       137           13.6
 SUB MODULES
                       sbox_sync_U18         1
                       sbox_sync_U19         1
                       sbox_sync_U20         1
                       sbox_sync_U21         1
-                              TOTAL       144
+                              TOTAL       145
 ----------------------------------------------------------------------
 Report for cell sbox_sync_U18.v1
 Instance Path : core.keyexpansion_inst.sbox_sync_inst3

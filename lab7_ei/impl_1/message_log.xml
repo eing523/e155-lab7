@@ -807,14 +807,6 @@
             <Navigation>7</Navigation>
         </Message>
         <Message>
-            <ID>35901012</ID>
-            <Severity>16</Severity>
-            <Dynamic>C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(16): </Dynamic>
-            <Dynamic>sbox.txt</Dynamic>
-            <Navigation>C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv</Navigation>
-            <Navigation>16</Navigation>
-        </Message>
-        <Message>
             <ID>35931002</ID>
             <Severity>16</Severity>
             <Dynamic>C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox_sync.sv(14): </Dynamic>

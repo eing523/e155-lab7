@@ -1,0 +1,134 @@
+#Start recording tcl command: 10/27/2026 20:35:50
+#Project Location: C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei; Project name: lab7_ei
+prj_open "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/lab7_ei.rdf"
+prj_disable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex1_state_array/input_to_state_tb.sv"
+prj_disable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex1_state_array/state_to_output_tb.sv"
+prj_disable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab07/lab07_fpga/src/aes_spi_tb.sv"
+prj_disable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex3_mixcolumns_a/mixcolumns_tb.sv"
+prj_disable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/keyexpansion_tb.sv"
+prj_disable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex2_shiftrows/shiftrows_tb.sv"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_enable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/keyexpansion_tb.sv"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/keyexpansion_tb/keyexpansion_tb.spf"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/keyexpansion_tb/keyexpansion_tb.spf"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/keyexpansion_tb/keyexpansion_tb.spf"
+prj_disable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/keyexpansion_tb.sv"
+prj_enable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab07/lab07_fpga/src/aes_core_tb.sv"
+prj_disable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab07/lab07_fpga/src/aes_spi_tb.sv.bak"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/aes_core_tb/aes_core_tb.spf"
+prj_remove_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab07/lab07_fpga/src/sbox.txt"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox.txt"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/aes_core_tb/aes_core_tb.spf"
+prj_remove_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex1_state_array/input_to_state_tb.sv"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/input_to_state_tb.sv"
+prj_disable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/input_to_state_tb.sv"
+prj_disable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/sbox.txt"
+prj_disable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab07/lab07_fpga/src/aes_core_tb.sv"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_remove_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab07/lab07_fpga/src/aes_core_tb.sv" "C:/Users/eing/Documents/GitHub/e155-lab7/lab07/lab07_fpga/src/aes_sbox_tb.sv"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/aes_core_tb.sv" "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/aes_sbox_tb.sv"
+prj_remove_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab07/lab07_fpga/src/aes_spi_tb.sv"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/aes_spi_tb.sv"
+prj_remove_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex1_state_array/state_to_output_tb.sv"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/state_to_output_tb.sv"
+prj_remove_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex2_shiftrows/shiftrows_tb.sv"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/shiftrows_tb.sv"
+prj_remove_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex3_mixcolumns_a/mixcolumns_tb.sv"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/mixcolumns_tb.sv"
+prj_remove_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/stretch_round_trace/aes_core_trace_tb.sv"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/aes_core_trace_tb.sv"
+prj_disable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/aes_core_tb.sv"
+prj_disable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/aes_sbox_tb.sv"
+prj_disable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/aes_spi_tb.sv"
+prj_disable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/state_to_output_tb.sv"
+prj_disable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/shiftrows_tb.sv"
+prj_disable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/mixcolumns_tb.sv"
+prj_disable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/aes_core_trace_tb.sv"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_enable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/aes_core_tb.sv"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/aes_core_tb/aes_core_tb.spf"
+prj_enable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/keyexpansion_tb.sv"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/keyexpansion_tb/keyexpansion_tb.spf"
+prj_disable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/aes_core_tb.sv"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/keyexpansion_tb/keyexpansion_tb.spf"
+prj_disable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/keyexpansion_tb.sv"
+prj_enable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/aes_spi_tb.sv"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/aes_spi_tb/aes_spi_tb.spf"
+prj_enable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab07/lab07_fpga/src/aes_spi_tb.sv.bak"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/aes_spi_tb/aes_spi_tb.spf"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/aes_spi_tb/aes_spi_tb.spf"
+prj_disable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/aes_spi_tb.sv"
+prj_disable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab07/lab07_fpga/src/aes_spi_tb.sv.bak"
+prj_enable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/mixcolumns_tb.sv"
+prj_disable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/mixcolumns_tb.sv"
+prj_enable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/keyexpansion_tb.sv"
+prj_disable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/keyexpansion_tb.sv"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_enable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/keyexpansion_tb.sv"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/keyexpansion_tb/keyexpansion_tb.spf"
+prj_disable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/keyexpansion_tb.sv"
+prj_enable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/aes_core_tb.sv"
+prj_enable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab07/lab07_fpga/src/aes_spi_tb.sv.bak"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/aes_core_tb/aes_core_tb.spf"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/aes_core_tb/aes_core_tb.spf"
+prj_disable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/aes_core_tb.sv"
+prj_enable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/aes_spi_tb.sv"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/aes_spi_tb/aes_spi_tb.spf"
+prj_disable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab07/lab07_fpga/src/aes_spi_tb.sv.bak"
+prj_disable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/aes_spi_tb.sv"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/lab7_ei.pdc"
+prj_enable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/lab7_ei.pdc"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_run Export -impl impl_1
+prj_enable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/aes_spi_tb.sv"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/aes_spi_tb/aes_spi_tb.spf"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_enable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/aes_sbox_tb.sv"
+prj_disable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/aes_spi_tb.sv"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/aes_sbox_tb/aes_sbox_tb.spf"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/aes_sbox_tb/aes_sbox_tb.spf"
+prj_disable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/aes_sbox_tb.sv"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/addroundkey_tb.sv"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/addroundkey_tb/addroundkey_tb.spf"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/addroundkey_tb/addroundkey_tb.spf"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/addroundkey_tb/addroundkey_tb.spf"
+prj_disable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/addroundkey_tb.sv"
+prj_enable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/mixcolumns_tb.sv"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/mixcolumns_tb/mixcolumns_tb.spf"
+prj_disable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/mixcolumns_tb.sv"
+prj_enable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/shiftrows_tb.sv"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/shiftrows_tb/shiftrows_tb.spf"
+prj_disable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/shiftrows_tb.sv"
+prj_enable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/keyexpansion_tb.sv"
+prj_add_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/keyexpansion_tb/keyexpansion_tb.spf"
+prj_disable_source "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/keyexpansion_tb.sv"
+prj_save 
+prj_close
+#Stop recording: 10/28/2026 04:43:17

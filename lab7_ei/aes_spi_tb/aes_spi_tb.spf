@@ -1,6 +1,16 @@
 <RadiantSimulationProject language="1" name="aes_spi_tb" path="." simType="QuestaSim Qrun" stage="0" version="2.0">
-    <Source include="none" langstandard="System Verilog" path="../lab07/lab07_fpga/src/aes_spi_tb.sv" type="VERILOG" worklib="work"/>
+    <Source include="none" langstandard="System Verilog" path="../lab07/lab07_fpga/src/aes_starter.sv" type="VERILOG" worklib="work"/>
+    <Source include="none" langstandard="System Verilog" path="../lab07/workshop/ex2_shiftrows/input_to_state.sv" type="VERILOG" worklib="work"/>
+    <Source include="none" langstandard="System Verilog" path="../lab07/workshop/ex2_shiftrows/shiftrows.sv" type="VERILOG" worklib="work"/>
+    <Source include="none" langstandard="System Verilog" path="../lab07/workshop/ex2_shiftrows/state_to_output.sv" type="VERILOG" worklib="work"/>
     <Source include="none" langstandard="System Verilog" path="source/impl_1/aes_spi.sv" type="VERILOG" worklib="work"/>
+    <Source include="none" langstandard="System Verilog" path="source/impl_1/aes_core.sv" type="VERILOG" worklib="work"/>
+    <Source include="none" langstandard="System Verilog" path="source/impl_1/mixcolumns.sv" type="VERILOG" worklib="work"/>
+    <Source include="none" langstandard="System Verilog" path="source/impl_1/keyexpansion.sv" type="VERILOG" worklib="work"/>
+    <Source include="none" langstandard="System Verilog" path="source/impl_1/sbox_sync.sv" type="VERILOG" worklib="work"/>
+    <Source include="none" langstandard="System Verilog" path="source/impl_1/addroundkey.sv" type="VERILOG" worklib="work"/>
+    <Source include="none" langstandard="System Verilog" path="source/impl_1/subbytes.sv" type="VERILOG" worklib="work"/>
+    <Source include="none" langstandard="System Verilog" path="source/impl_1/aes_spi_tb.sv" type="VERILOG" worklib="work"/>
     <SimLib value="pmi_work ovi_ice40up"/>
     <GlbInc value=""/>
     <Macro value=""/>

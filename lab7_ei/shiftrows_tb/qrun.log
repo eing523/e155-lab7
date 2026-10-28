@@ -25,3 +25,30 @@
 # Break in Module shiftrows_tb at C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex2_shiftrows/shiftrows_tb.sv line 76
 # End time: 17:57:04 on Oct 27,2026, Elapsed time: 0:00:39
 # Errors: 0, Warnings: 0
+# *** Summary *********************************************
+#     qrun: Errors:   0, Warnings:   0
+#     vlog: Errors:   0, Warnings:   1
+#     vopt: Errors:   0, Warnings:   4
+#   Totals: Errors:   0, Warnings:   5
+# ** Note: (vsim-220) 'C:/lscc/radiant/2026.1/questasim/win64/../modelsim.ini' is used as the ini file.
+# vsim -L work -L pmi_work -L ovi_ice40up -lib qrun.out/work -wlf vsim.wlf -gui -do "view wave" -do "add wave /*" -do "run -all" -statslog qrun.out/stats_log qrun_opt -suppress vsim-7033,vsim-8630,3009,3389 -appendlog -l qrun.log 
+# Start time: 04:38:10 on Oct 28,2026
+# Loading sv_std.std
+# Loading work.shiftrows_tb(fast)
+# Loading work.shiftrows(fast)
+# Loading work.input_to_state(fast)
+# Loading work.state_to_output(fast)
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# add wave /*
+# run -all
+# PASS  numbered bytes
+# PASS  Appendix B round 1
+# PASS  Appendix B round 2
+# PASSED: all 3 tests
+# ** Note: $finish    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/shiftrows_tb.sv(76)
+#    Time: 30 ns  Iteration: 0  Instance: /shiftrows_tb
+# 1
+# Break in Module shiftrows_tb at C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/shiftrows_tb.sv line 76
+# End time: 04:38:55 on Oct 28,2026, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 0

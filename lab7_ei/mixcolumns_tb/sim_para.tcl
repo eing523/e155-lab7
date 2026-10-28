@@ -5,7 +5,7 @@ set ::bali::simulation::Para(DEVICEFAMILYNAME) {iCE40UP}
 set ::bali::simulation::Para(PROJECT) {mixcolumns_tb}
 set ::bali::simulation::Para(MDOFILE) {}
 set ::bali::simulation::Para(PROJECTPATH) {C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/mixcolumns_tb}
-set ::bali::simulation::Para(FILELIST) {"C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex3_mixcolumns_a/mixcolumns_tb.sv" "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/mixcolumns.sv" }
+set ::bali::simulation::Para(FILELIST) {"C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/mixcolumns.sv" "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/mixcolumns_tb.sv" }
 set ::bali::simulation::Para(GLBINCLIST) {}
 set ::bali::simulation::Para(INCLIST) {"none" "none"}
 set ::bali::simulation::Para(WORKLIBLIST) {"work" "work" }

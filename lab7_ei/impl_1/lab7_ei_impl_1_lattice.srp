@@ -5,7 +5,7 @@ Copyright (c) 1995 AT&T Corp.   All rights reserved.
 Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
 Copyright (c) 2001 Agere Systems   All rights reserved.
 Copyright (c) 2002-2026 Lattice Semiconductor Corporation,  All rights reserved.
-Tue Oct 27 17:32:11 2026
+Wed Oct 28 02:26:01 2026
 
 
 Command Line:  C:\lscc\radiant\2026.1\ispfpga\bin\nt64\synthesis.exe -f C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/impl_1/lab7_ei_impl_1_lattice.synproj -logfile lab7_ei_impl_1_lattice.srp -gui -msgset C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/promote.xml 
@@ -115,10 +115,7 @@ Output HDL filename: lab7_ei_impl_1.vm
 -path . (searchpath added)
 -path .. (searchpath added)
 -path ../../lab07/lab07_fpga/src (searchpath added)
--path ../../lab07/workshop/ex1_state_array (searchpath added)
 -path ../../lab07/workshop/ex2_shiftrows (searchpath added)
--path ../../lab07/workshop/ex3_mixcolumns_a (searchpath added)
--path ../../lab07/workshop/stretch_round_trace (searchpath added)
 -path ../source/impl_1 (searchpath added)
 -path C:/lscc/radiant/2026.1/ispfpga/ice40tp/data (searchpath added)
 Mixed language design
@@ -134,6 +131,7 @@ Verilog design file: ../source/impl_1/keyexpansion.sv
 Verilog design file: ../source/impl_1/sbox_sync.sv
 Verilog design file: ../source/impl_1/addroundkey.sv
 Verilog design file: ../source/impl_1/subbytes.sv
+Verilog design file: ../source/impl_1/aes_spi_tb.sv
 VHDL library: pmi
 VHDL design file: C:/lscc/radiant/2026.1/ip/pmi/pmi_iCE40UP.vhd
 
@@ -155,6 +153,7 @@ Analyzing Verilog file ../source/impl_1/keyexpansion.sv. VERI-1482
 Analyzing Verilog file ../source/impl_1/sbox_sync.sv. VERI-1482
 Analyzing Verilog file ../source/impl_1/addroundkey.sv. VERI-1482
 Analyzing Verilog file ../source/impl_1/subbytes.sv. VERI-1482
+Analyzing Verilog file ../source/impl_1/aes_spi_tb.sv. VERI-1482
 Top module name (Verilog): aes
 INFO <35901018> - synthesis: ../../lab07/lab07_fpga/src/aes_starter.sv(6): compiling module aes. VERI-1018
 INFO <35901018> - synthesis: ../source/impl_1/aes_spi.sv(8): compiling module aes_spi. VERI-1018
@@ -236,7 +235,7 @@ FD1P3XZ => 648
 IB => 4
 INV => 1
 IOL_B => 1
-LUT4 => 1008
+LUT4 => 1007
 OB => 2
 ################### End Area Report ##################
 Number of odd-length carry chains : 0
@@ -253,14 +252,14 @@ Highest fanout non-clock nets
 Top 10 highest fanout non-clock nets:
   Net : load_c, loads : 268
   Net : core/fsm_next_result_127__N_262[2], loads : 136
-  Net : core/n7, loads : 132
-  Net : core/n2200, loads : 130
-  Net : core/n2510, loads : 129
+  Net : core/n7, loads : 133
+  Net : core/n2209, loads : 130
+  Net : core/n2525, loads : 129
   Net : spi/wasdone, loads : 128
   Net : core/round[0], loads : 12
   Net : core/cyphertext_127__N_1[28], loads : 11
-  Net : core/cyphertext_127__N_1[30], loads : 11
-  Net : core/cyphertext_127__N_1[31], loads : 11
+  Net : core/round[1], loads : 11
+  Net : core/cyphertext_127__N_1[26], loads : 11
 ################### End Clock Report ##################
 
 ################### Begin Constraint Report ######################
@@ -269,10 +268,10 @@ Constraint Summary:
   Total number of constraints dropped: 0
 ###################  End Constraint Report  ######################
 
-Peak Memory Usage: 103 MB
+Peak Memory Usage: 102 MB
 
 --------------------------------------------------------------
 Total CPU Time: 1 secs 
 Total REAL Time: 0 secs 
 --------------------------------------------------------------
-Checksum -- synthesis -- netlist: 5ad07b9ab4fd44edbb8867f8d1715b36f080f9ae
+Checksum -- synthesis -- netlist: 90a3444c892f676f5d98034f57ba717ad7e252de

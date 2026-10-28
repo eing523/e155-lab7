@@ -11,9 +11,9 @@ Z0 !s99 nomlopt
 cModel Technology
 Z1 dC:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/mixcolumns_tb
 vgaloismult
-Z2 2C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex3_mixcolumns_a/mixcolumns_tb.sv|C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/mixcolumns.sv
+Z2 2C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/mixcolumns.sv|C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/mixcolumns_tb.sv
 Z3 DXx6 sv_std 3 std 0 22 @5XbY]_OacJl=`ToSm<M^0
-Z4 !s110 1793149393
+Z4 !s110 1793187371
 !i10b 1
 !s100 gCdlVzJ[gKThH;V7Gk2Y91
 ILALSoGJYeY?gK8H>kFENS2
@@ -29,9 +29,9 @@ Z9 OL;L;2025.2;82
 r1
 !s85 0
 31
-Z10 !s108 1793149393.000000
-Z11 !s107 C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/mixcolumns.sv|C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex3_mixcolumns_a/mixcolumns_tb.sv|
-Z12 !s90 -reportprogress|300|-L|work|-sv|-L|pmi_work|-L|ovi_ice40up|C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex3_mixcolumns_a/mixcolumns_tb.sv|C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/mixcolumns.sv|-work|qrun.out/work|-statslog|qrun.out/stats_log|-csession=incr|
+Z10 !s108 1793187370.000000
+Z11 !s107 C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/mixcolumns_tb.sv|C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/mixcolumns.sv|
+Z12 !s90 -reportprogress|300|-L|work|-sv|-L|pmi_work|-L|ovi_ice40up|C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/mixcolumns.sv|C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/mixcolumns_tb.sv|-work|qrun.out/work|-statslog|qrun.out/stats_log|-csession=incr|
 !i113 0
 Z13 o-L work -sv -L pmi_work -L ovi_ice40up -work qrun.out/work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 Z14 tCvgOpt 0 defaultOptions 1085333592
@@ -91,12 +91,12 @@ R3
 R4
 !i10b 1
 !s100 >VBJ5X0nI_7Q?mHikof0U2
-Id<NLNb@S@ic6a0J<WTa5g3
+IZl^<G?Dm:_UB[oo5YTI@O2
 S1
 R1
 w1793149362
-8C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex3_mixcolumns_a/mixcolumns_tb.sv
-FC:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex3_mixcolumns_a/mixcolumns_tb.sv
+8C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/mixcolumns_tb.sv
+FC:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/mixcolumns_tb.sv
 !i122 0
 L0 11 66
 R8
@@ -113,8 +113,8 @@ R14
 Tqrun_opt
 !i145 1
 !i144 0
-!s110 1793149394
-VMYG<i;<e?7h1K1a35]<b70
+R4
+Vo?fGJEGmDC]PXj70:JKQc3
 04 13 4 work mixcolumns_tb fast 0
 R0
 !s12f OEM25U21 

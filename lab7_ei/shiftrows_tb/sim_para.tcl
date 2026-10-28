@@ -5,7 +5,7 @@ set ::bali::simulation::Para(DEVICEFAMILYNAME) {iCE40UP}
 set ::bali::simulation::Para(PROJECT) {shiftrows_tb}
 set ::bali::simulation::Para(MDOFILE) {}
 set ::bali::simulation::Para(PROJECTPATH) {C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/shiftrows_tb}
-set ::bali::simulation::Para(FILELIST) {"C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex2_shiftrows/input_to_state.sv" "C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex2_shiftrows/shiftrows.sv" "C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex2_shiftrows/shiftrows_tb.sv" "C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex2_shiftrows/state_to_output.sv" }
+set ::bali::simulation::Para(FILELIST) {"C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex2_shiftrows/input_to_state.sv" "C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex2_shiftrows/shiftrows.sv" "C:/Users/eing/Documents/GitHub/e155-lab7/lab07/workshop/ex2_shiftrows/state_to_output.sv" "C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/shiftrows_tb.sv" }
 set ::bali::simulation::Para(GLBINCLIST) {}
 set ::bali::simulation::Para(INCLIST) {"none" "none" "none" "none"}
 set ::bali::simulation::Para(WORKLIBLIST) {"work" "work" "work" "work" }

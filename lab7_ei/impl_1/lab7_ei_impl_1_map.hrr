@@ -4,8 +4,8 @@ Report for cell aes
                      Cell usage:
                                   cell	      count    Res Usage(%)
                                  IOLGC	       1.00        100.0
-                                  LUT4	       1268        100.0
-                               LUTGATE	       1268        100.0
+                                  LUT4	       1267        100.0
+                               LUTGATE	       1267        100.0
                                  IOREG	          1        100.0
                                  IOBUF	          6        100.0
                                 PFUREG	        648        100.0
@@ -29,14 +29,14 @@ Report for cell aes_core
    Instance path: aes/core
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  LUT4	        828        65.3
-                               LUTGATE	        828        65.3
+                                  LUT4	        827        65.3
+                               LUTGATE	        827        65.3
                                 PFUREG	        264        40.7
                                    EBR	         20        100.0
 SUB MODULES
                                   cell	      count    LUT4 Usage(%)
                           keyexpansion	          1         8.0
-                            mixcolumns	          1         8.3
+                            mixcolumns	          1         8.0
                               subbytes	          1         0.0
 ---------------------------------------------------
 Report for cell subbytes
@@ -163,12 +163,12 @@ Report for cell mixcolumns
    Instance path: aes/core/mixcolumns_inst
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  LUT4	        105         8.3
-                               LUTGATE	        105         8.3
+                                  LUT4	        101         8.0
+                               LUTGATE	        101         8.0
 SUB MODULES
                                   cell	      count    LUT4 Usage(%)
-                             mixcolumn	          1         1.8
-                         mixcolumn_U15	          1         2.1
+                             mixcolumn	          1         1.7
+                         mixcolumn_U15	          1         2.0
                          mixcolumn_U16	          1         2.4
                          mixcolumn_U17	          1         1.9
 ---------------------------------------------------
@@ -176,22 +176,22 @@ Report for cell mixcolumn
    Instance path: aes/core/mixcolumns_inst/mc3
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  LUT4	         23         1.8
-                               LUTGATE	         23         1.8
+                                  LUT4	         22         1.7
+                               LUTGATE	         22         1.7
 ---------------------------------------------------
 Report for cell mixcolumn_U15
    Instance path: aes/core/mixcolumns_inst/mc2
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  LUT4	         27         2.1
-                               LUTGATE	         27         2.1
+                                  LUT4	         25         2.0
+                               LUTGATE	         25         2.0
 ---------------------------------------------------
 Report for cell mixcolumn_U16
    Instance path: aes/core/mixcolumns_inst/mc1
                      Cell usage:
                                   cell	      count    Res Usage(%)
-                                  LUT4	         31         2.4
-                               LUTGATE	         31         2.4
+                                  LUT4	         30         2.4
+                               LUTGATE	         30         2.4
 ---------------------------------------------------
 Report for cell mixcolumn_U17
    Instance path: aes/core/mixcolumns_inst/mc0

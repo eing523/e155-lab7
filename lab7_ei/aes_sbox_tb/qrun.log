@@ -1,0 +1,47 @@
+# *** Summary *********************************************
+#     qrun: Errors:   0, Warnings:   0
+#     vlog: Errors:   0, Warnings:   0
+#     vopt: Errors:   0, Warnings:   3
+#   Totals: Errors:   0, Warnings:   3
+# ** Note: (vsim-220) 'C:/lscc/radiant/2026.1/questasim/win64/../modelsim.ini' is used as the ini file.
+# vsim -L work -L pmi_work -L ovi_ice40up -lib qrun.out/work -wlf vsim.wlf -gui -do "view wave" -do "add wave /*" -do "run -all" -statslog qrun.out/stats_log qrun_opt -suppress vsim-7033,vsim-8630,3009,3389 -appendlog -l qrun.log 
+# Start time: 04:16:42 on Oct 28,2026
+# Loading sv_std.std
+# Loading work.testbench_aes_sbox(fast)
+# Loading work.sbox_sync(fast)
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# add wave /*
+# run -all
+# ** Note: $stop    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/aes_sbox_tb.sv(68)
+#    Time: 880 ns  Iteration: 0  Instance: /testbench_aes_sbox
+# Break in Module testbench_aes_sbox at C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/aes_sbox_tb.sv line 68
+# End time: 04:18:41 on Oct 28,2026, Elapsed time: 0:01:59
+# Errors: 0, Warnings: 0
+# *** Summary *********************************************
+#     qrun: Errors:   0, Warnings:   0
+#     vlog: Errors:   0, Warnings:   0
+#     vopt: Errors:   0, Warnings:   3
+#   Totals: Errors:   0, Warnings:   3
+# ** Note: (vsim-220) 'C:/lscc/radiant/2026.1/questasim/win64/../modelsim.ini' is used as the ini file.
+# vsim -L work -L pmi_work -L ovi_ice40up -lib qrun.out/work -wlf vsim.wlf -gui -do "view wave" -do "add wave /*" -do "run -all" -statslog qrun.out/stats_log qrun_opt -suppress vsim-7033,vsim-8630,3009,3389 -appendlog -l qrun.log 
+# Start time: 04:19:11 on Oct 28,2026
+# Loading sv_std.std
+# Loading work.testbench_aes_sbox(fast)
+# Loading work.sbox_sync(fast)
+# view wave
+# .main_pane.wave.interior.cs.body.pw.wf
+# add wave /*
+# run -all
+# ** Note: $stop    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/aes_sbox_tb.sv(69)
+#    Time: 1100 ns  Iteration: 0  Instance: /testbench_aes_sbox
+# Break in Module testbench_aes_sbox at C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/aes_sbox_tb.sv line 69
+restart -f
+# Loading work.testbench_aes_sbox(fast)
+# Loading work.sbox_sync(fast)
+run -all
+# ** Note: $stop    : C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/aes_sbox_tb.sv(69)
+#    Time: 1100 ns  Iteration: 0  Instance: /testbench_aes_sbox
+# Break in Module testbench_aes_sbox at C:/Users/eing/Documents/GitHub/e155-lab7/lab7_ei/source/impl_1/aes_sbox_tb.sv line 69
+# End time: 04:21:01 on Oct 28,2026, Elapsed time: 0:01:50
+# Errors: 0, Warnings: 0
