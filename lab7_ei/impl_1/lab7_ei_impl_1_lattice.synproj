@@ -53,7 +53,6 @@
 -sver "../source/impl_1/sbox_sync.sv"
 -sver "../source/impl_1/addroundkey.sv"
 -sver "../source/impl_1/subbytes.sv"
--sver "../source/impl_1/aes_spi_tb.sv"
 -path ".."
 -top aes
 # Output Configuration

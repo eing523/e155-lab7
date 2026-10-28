@@ -8,7 +8,7 @@ Package: SG48
 Performance Grade:  High-Performance_1.2V
 
 Mapper:    version Radiant Software (64-bit) 2026.1.0.37.0
-Mapped on: Wed Oct 28 02:26:04 2026
+Mapped on: Wed Oct 28 14:34:27 2026
 
 Design Information
 ------------------
@@ -54,8 +54,8 @@ Design Summary
       Net clk_c: 284 loads, 284 rising, 0 falling (Driver: Port clk)
    Number of Clock Enables:  3
       Net sdo_pad.vcc: 60 loads, 0 SLICEs
-      Net core.n2525: 128 loads, 128 SLICEs
-      Net core.n2209: 128 loads, 128 SLICEs
+      Net core.n2552: 128 loads, 128 SLICEs
+      Net core.n2252: 128 loads, 128 SLICEs
    Number of LSRs:  1
       Pin load: 7 loads, 7 SLICEs (Net: load_c)
    Top 10 highest fanout non-clock nets:
@@ -69,10 +69,10 @@ Design Summary
 
 Design Summary (cont)
 ---------------------
-      Net core.fsm_next_result_127__N_262[2]: 136 loads
+      Net core.fsm_next_result_127__N_262[3]: 136 loads
       Net core.n7: 130 loads
-      Net core.n2209: 128 loads
-      Net core.n2525: 128 loads
+      Net core.n2252: 128 loads
+      Net core.n2552: 128 loads
       Net spi.wasdone: 128 loads
       Net sdo_pad.vcc: 60 loads
       Net core.round[0]: 12 loads
@@ -184,8 +184,8 @@ Run Time and Memory Usage
 
    Total CPU Time: 0 secs
    Total REAL Time: 0 secs
-   Peak Memory Usage: 87 MB
-Checksum -- map: a36608df20bb3b37dfdf6e3c1e63dcf1e4e8f76
+   Peak Memory Usage: 86 MB
+Checksum -- map: 1c5c5427188225e6f4c14e3c065d231e9d17d61
 
 
 

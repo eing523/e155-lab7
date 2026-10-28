@@ -2,7 +2,6 @@
 <session>
  <Bookmarks/>
  <Breakpoints groups="Breakpoints" active_group="Breakpoints">
-  <BreakpointListItem trigger="" line="91" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" stopAll="false" group="Breakpoints" type="Breakpoint" state="2" filename="../src/lab7.c" useHWbreakpoint="false"/>
   <BreakpointListItem trigger="" line="60" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" stopAll="false" group="Breakpoints" type="Breakpoint" state="4" filename="../src/STM32L432KC_SPI.c" useHWbreakpoint="false"/>
   <BreakpointListItem trigger="" line="68" counter="0" hardwareBreakpoint="" isFunctionBreakpoint="false" action="" expression="" stopAll="false" group="Breakpoints" type="Breakpoint" state="4" filename="../src/STM32L432KC_SPI.c" useHWbreakpoint="false"/>
   <Exceptions/>
@@ -86,7 +85,7 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="53" useTextEdit="1" path="../src/lab7.c" left="0" top="53" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="53" useTextEdit="1" path="../src/lab7.c" left="0" selected="1" top="59" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="26" y="19" useTextEdit="1" path="../lib/STM32L432KC.h" left="0" top="0" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="27" useTextEdit="1" openedFrom="/Users/joshbrake/dev/E155FA22/labs/lab07/lab07_mcu/src/lab7.c" path="../lib/STM32L432KC_SPI.c" left="0" top="0" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="31" y="30" useTextEdit="1" openedFrom="/Users/joshbrake/dev/E155FA22/labs/lab07/lab07_mcu/lib/STM32L432KC_SPI.c" path="../lib/STM32L432KC_SPI.h" left="0" top="0" codecName="Default"/>
@@ -103,7 +102,7 @@
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="../lib/STM32L432KC_TIM.h" left="0" top="0" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="21" y="766" useTextEdit="1" path="CMSIS_5/CMSIS/Core/Include/core_cm4.h" left="0" top="694" codecName="Default"/>
   <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="main.c" left="0" top="0" codecName="Default"/>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="GPIO.c" left="0" selected="1" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" path="GPIO.c" left="0" top="0" codecName="Default"/>
  </Files>
- <EMStudioWindow activeProject="lab07_mcu" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="C:/Users/eing/Documents/GitHub/e155-lab7/lab07/lab07_mcu/lab07_proj" debugSearchPath="" autoConnectCapabilities="3199"/>
+ <EMStudioWindow activeProject="lab07_mcu" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="C:/Users/eing/Documents/GitHub/e155-lab7/lab07/lab07_mcu/lab07_proj" debugSearchPath="" autoConnectCapabilities="3711"/>
 </session>
